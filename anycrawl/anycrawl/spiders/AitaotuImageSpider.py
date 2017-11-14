@@ -9,6 +9,7 @@ from scrapy.utils.url import urljoin_rfc
 from scrapy.spider import CrawlSpider, Rule
 from scrapy.xlib.pydispatch import dispatcher
 from lxml import etree
+import os
 
 from anycrawl.items import AitaotuItems
 '''
@@ -19,10 +20,10 @@ from scrapy.selector import HtmlXPathSelector
 '''
 
 class MultSetSpider(CrawlSpider):
-    name = "aitaotuCrawler"
+    name = "aitaotuSpider"
     allowed_domains = ["aitaotu.com"]
     start_urls = [
-        "https://www.aitaotu.com/tag/tangyun.html"
+        "https://www.aitaotu.com/tag/chizuzhe.html"
         ]
     '''
     "https://www.aitaotu.com/tag/youmihui.html",
