@@ -72,7 +72,7 @@ ITEM_PIPELINES = {
     'anycrawl.pipelines.AitaotuPipeline': 300,
 }
 
-IMAGES_STORE='C:/Tang/Develop/Python/ImageSpider/work/'
+IMAGES_STORE='C:/Tang/Develop/Python/work/'
 
 # Enable and configure the AutoThrottle extension (disabled by default)
 # See http://doc.scrapy.org/en/latest/topics/autothrottle.html

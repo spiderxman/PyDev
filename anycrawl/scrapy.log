@@ -1,0 +1,1376 @@
+2017-11-14 23:18:27 [scrapy.utils.log] INFO: Scrapy 1.4.0 started (bot: anycrawl)
+2017-11-14 23:18:27 [scrapy.utils.log] INFO: Overridden settings: {'NEWSPIDER_MODULE': 'anycrawl.spiders', 'LOG_FILE': 'scrapy.log', 'BOT_NAME': 'anycrawl', 'SPIDER_MODULES': ['anycrawl.spiders']}
+2017-11-14 23:18:29 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats',
+ 'scrapy.extensions.spiderstate.SpiderState']
+2017-11-14 23:18:32 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'anycrawl.middlewares.AnycrawlSpiderMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2017-11-14 23:18:32 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2017-11-14 23:18:33 [scrapy.middleware] INFO: Enabled item pipelines:
+['anycrawl.pipelines.AitaotuPipeline']
+2017-11-14 23:18:33 [scrapy.core.engine] INFO: Spider opened
+2017-11-14 23:18:34 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2017-11-14 23:18:34 [aitaotuSpider] INFO: Spider opened: aitaotuSpider
+2017-11-14 23:18:34 [scrapy.extensions.telnet] DEBUG: Telnet console listening on 127.0.0.1:6023
+2017-11-14 23:18:36 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.aitaotu.com/tag/chizuzhe.html> (referer: None)
+2017-11-14 23:18:36 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.aitaotu.com/tag/youmihui.html> (referer: None)
+2017-11-14 23:18:36 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.aitaotu.com/tag/xingleyuan.html> (referer: None)
+2017-11-14 23:18:36 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.aitaotu.com/tag/feituwang.html> (referer: None)
+2017-11-14 23:18:36 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.aitaotu.com/tag/meixiu.html> (referer: None)
+2017-11-14 23:18:37 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.aitaotu.com/tag/shanghaixuancai.html> (referer: None)
+2017-11-14 23:18:37 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.aitaotu.com/tag/chizuzhe.html> (referer: https://www.aitaotu.com/tag/chizuzhe.html)
+2017-11-14 23:18:37 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.aitaotu.com/tag/youmihui.html> (referer: https://www.aitaotu.com/tag/youmihui.html)
+2017-11-14 23:18:37 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.aitaotu.com/tag/feituwang.html> (referer: https://www.aitaotu.com/tag/feituwang.html)
+2017-11-14 23:18:37 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.aitaotu.com/tag/xingleyuan.html> (referer: https://www.aitaotu.com/tag/xingleyuan.html)
+2017-11-14 23:18:37 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.aitaotu.com/tag/meixiu.html> (referer: https://www.aitaotu.com/tag/meixiu.html)
+2017-11-14 23:18:37 [scrapy.dupefilters] DEBUG: Filtered duplicate request: <GET https://www.aitaotu.com/guonei/10625.html> - no more duplicates will be shown (see DUPEFILTER_DEBUG to show all duplicates)
+2017-11-14 23:18:38 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.aitaotu.com/tag/shanghaixuancai.html> (referer: https://www.aitaotu.com/tag/shanghaixuancai.html)
+2017-11-14 23:18:38 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.aitaotu.com/guonei/10625.html> (referer: https://www.aitaotu.com/tag/chizuzhe.html)
+2017-11-14 23:18:38 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.aitaotu.com/guonei/10624.html> (referer: https://www.aitaotu.com/tag/chizuzhe.html)
+2017-11-14 23:18:38 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.aitaotu.com/guonei/34018.html> (referer: https://www.aitaotu.com/tag/youmihui.html)
+2017-11-14 23:18:38 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.aitaotu.com/guonei/33514.html> (referer: https://www.aitaotu.com/tag/xingleyuan.html)
+2017-11-14 23:18:38 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.aitaotu.com/guonei/14978.html> (referer: https://www.aitaotu.com/tag/feituwang.html)
+2017-11-14 23:18:39 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.aitaotu.com/guonei/33933.html> (referer: https://www.aitaotu.com/tag/youmihui.html)
+2017-11-14 23:18:39 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.aitaotu.com/guonei/32961.html> (referer: https://www.aitaotu.com/tag/xingleyuan.html)
+2017-11-14 23:18:39 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.aitaotu.com/guonei/10623.html> (referer: https://www.aitaotu.com/tag/chizuzhe.html)
+2017-11-14 23:18:39 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.aitaotu.com/guonei/14804.html> (referer: https://www.aitaotu.com/tag/feituwang.html)
+2017-11-14 23:18:39 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.aitaotu.com/guonei/11040.html> (referer: https://www.aitaotu.com/tag/shanghaixuancai.html)
+2017-11-14 23:18:40 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.aitaotu.com/guonei/33896.html> (referer: https://www.aitaotu.com/tag/youmihui.html)
+2017-11-14 23:18:41 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.aitaotu.com/guonei/32930.html> (referer: https://www.aitaotu.com/tag/xingleyuan.html)
+2017-11-14 23:18:41 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.aitaotu.com/guonei/14653.html> (referer: https://www.aitaotu.com/tag/feituwang.html)
+2017-11-14 23:18:41 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.aitaotu.com/guonei/24826.html> (referer: https://www.aitaotu.com/tag/meixiu.html)
+2017-11-14 23:18:42 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.aitaotu.com/guonei/10625_2.html> (referer: https://www.aitaotu.com/guonei/10625.html)
+2017-11-14 23:18:43 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.aitaotu.com/guonei/11039.html> (referer: https://www.aitaotu.com/tag/shanghaixuancai.html)
+2017-11-14 23:18:43 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.aitaotu.com/guonei/10622.html> (referer: https://www.aitaotu.com/tag/chizuzhe.html)
+2017-11-14 23:18:44 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.aitaotu.com/guonei/24824.html> (referer: https://www.aitaotu.com/tag/meixiu.html)
+2017-11-14 23:18:49 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://img.aitaotu.cc:8089/Pics/2017/0927/11/01.jpg> (referer: None)
+2017-11-14 23:18:49 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://img.aitaotu.cc:8089/Pics/2017/0927/11/01.jpg> referred in <None>
+2017-11-14 23:18:50 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.aitaotu.com/guonei/33514.html>
+{'img_url': 'https://img.aitaotu.cc:8089/Pics/2017/0927/11/01.jpg',
+ 'ref_url': 'https://www.aitaotu.com/guonei/33514.html',
+ 'title': '[星乐园] 美女漂亮女人刘钰儿高清浴室照 VOL.046'}
+2017-11-14 23:18:51 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://img.aitaotu.cc:8089/Pics/2015/1202/10/02.jpg> (referer: None)
+2017-11-14 23:18:51 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://img.aitaotu.cc:8089/Pics/2015/1202/10/02.jpg> referred in <None>
+2017-11-14 23:18:52 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.aitaotu.com/guonei/10624.html>
+{'img_url': 'https://img.aitaotu.cc:8089/Pics/2015/1202/10/02.jpg',
+ 'ref_url': 'https://www.aitaotu.com/guonei/10624.html',
+ 'title': '[赤足者]美腿美女小玉性感玉足写真No.077'}
+2017-11-14 23:18:52 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://img.aitaotu.cc:8089/Pics/2016/0218/15/01.jpg> (referer: None)
+2017-11-14 23:18:52 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://img.aitaotu.cc:8089/Pics/2016/0218/15/01.jpg> referred in <None>
+2017-11-14 23:18:52 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.aitaotu.com/guonei/14978.html>
+{'img_url': 'https://img.aitaotu.cc:8089/Pics/2016/0218/15/01.jpg',
+ 'ref_url': 'https://www.aitaotu.com/guonei/14978.html',
+ 'title': '[飞图网]娇娆美女Tang倩双S曲线人体艺术照No.012'}
+2017-11-14 23:18:55 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://img.aitaotu.cc:8089/Pics/2017/0927/11/02.jpg> (referer: None)
+2017-11-14 23:18:55 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://img.aitaotu.cc:8089/Pics/2017/0927/11/02.jpg> referred in <None>
+2017-11-14 23:18:55 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.aitaotu.com/guonei/33514.html>
+{'img_url': 'https://img.aitaotu.cc:8089/Pics/2017/0927/11/02.jpg',
+ 'ref_url': 'https://www.aitaotu.com/guonei/33514.html',
+ 'title': '[星乐园] 美女漂亮女人刘钰儿高清浴室照 VOL.046'}
+2017-11-14 23:18:56 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://img.aitaotu.cc:8089/Pics/2017/1104/11/01.jpg> (referer: None)
+2017-11-14 23:18:56 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://img.aitaotu.cc:8089/Pics/2017/1104/11/01.jpg> referred in <None>
+2017-11-14 23:18:56 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.aitaotu.com/guonei/33933.html>
+{'img_url': 'https://img.aitaotu.cc:8089/Pics/2017/1104/11/01.jpg',
+ 'ref_url': 'https://www.aitaotu.com/guonei/33933.html',
+ 'title': '[尤蜜荟] 性感美臀王刘钰儿极致诱惑写真 Vol.064'}
+2017-11-14 23:19:00 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://img.aitaotu.cc:8089/Pics/2015/1202/11/01.jpg> (referer: None)
+2017-11-14 23:19:00 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://img.aitaotu.cc:8089/Pics/2015/1202/11/01.jpg> referred in <None>
+2017-11-14 23:19:01 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.aitaotu.com/guonei/10625.html>
+{'img_url': 'https://img.aitaotu.cc:8089/Pics/2015/1202/11/01.jpg',
+ 'ref_url': 'https://www.aitaotu.com/guonei/10625.html',
+ 'title': '[赤足者]制服美女长腿诱惑写真No.078'}
+2017-11-14 23:19:02 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://img.aitaotu.cc:8089/Pics/2015/1202/11/02.jpg> (referer: None)
+2017-11-14 23:19:02 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://img.aitaotu.cc:8089/Pics/2015/1202/11/02.jpg> referred in <None>
+2017-11-14 23:19:02 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.aitaotu.com/guonei/10625.html>
+{'img_url': 'https://img.aitaotu.cc:8089/Pics/2015/1202/11/02.jpg',
+ 'ref_url': 'https://www.aitaotu.com/guonei/10625.html',
+ 'title': '[赤足者]制服美女长腿诱惑写真No.078'}
+2017-11-14 23:19:06 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://img.aitaotu.cc:8089/Pics/2016/0215/19/01.jpg> (referer: None)
+2017-11-14 23:19:06 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://img.aitaotu.cc:8089/Pics/2016/0215/19/01.jpg> referred in <None>
+2017-11-14 23:19:06 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://img.aitaotu.cc:8089/Pics/2015/1202/10/01.jpg> (referer: None)
+2017-11-14 23:19:06 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://img.aitaotu.cc:8089/Pics/2015/1202/10/01.jpg> referred in <None>
+2017-11-14 23:19:06 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.aitaotu.com/guonei/14804.html>
+{'img_url': 'https://img.aitaotu.cc:8089/Pics/2016/0215/19/01.jpg',
+ 'ref_url': 'https://www.aitaotu.com/guonei/14804.html',
+ 'title': '[飞图网]Babyface梦瑶性感躯体浴室人体艺术欣赏No.011'}
+2017-11-14 23:19:07 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.aitaotu.com/guonei/10624.html>
+{'img_url': 'https://img.aitaotu.cc:8089/Pics/2015/1202/10/01.jpg',
+ 'ref_url': 'https://www.aitaotu.com/guonei/10624.html',
+ 'title': '[赤足者]美腿美女小玉性感玉足写真No.077'}
+2017-11-14 23:19:07 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://img.aitaotu.cc:8089/Pics/2017/0821/11/01.jpg> (referer: None)
+2017-11-14 23:19:07 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://img.aitaotu.cc:8089/Pics/2017/0821/11/01.jpg> referred in <None>
+2017-11-14 23:19:07 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.aitaotu.com/guonei/32961.html>
+{'img_url': 'https://img.aitaotu.cc:8089/Pics/2017/0821/11/01.jpg',
+ 'ref_url': 'https://www.aitaotu.com/guonei/32961.html',
+ 'title': '[星乐园] 年轻漂亮的美女刘钰儿吊带睡裙写真 VOL.045'}
+2017-11-14 23:19:11 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://img.aitaotu.cc:8089/Pics/2016/0215/19/02.jpg> (referer: None)
+2017-11-14 23:19:11 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://img.aitaotu.cc:8089/Pics/2016/0215/19/02.jpg> referred in <None>
+2017-11-14 23:19:12 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.aitaotu.com/guonei/14804.html>
+{'img_url': 'https://img.aitaotu.cc:8089/Pics/2016/0215/19/02.jpg',
+ 'ref_url': 'https://www.aitaotu.com/guonei/14804.html',
+ 'title': '[飞图网]Babyface梦瑶性感躯体浴室人体艺术欣赏No.011'}
+2017-11-14 23:19:12 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://img.aitaotu.cc:8089/Pics/2017/1104/11/02.jpg> (referer: None)
+2017-11-14 23:19:12 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://img.aitaotu.cc:8089/Pics/2017/1104/11/02.jpg> referred in <None>
+2017-11-14 23:19:13 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.aitaotu.com/guonei/33933.html>
+{'img_url': 'https://img.aitaotu.cc:8089/Pics/2017/1104/11/02.jpg',
+ 'ref_url': 'https://www.aitaotu.com/guonei/33933.html',
+ 'title': '[尤蜜荟] 性感美臀王刘钰儿极致诱惑写真 Vol.064'}
+2017-11-14 23:19:17 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://img.aitaotu.cc:8089/Pics/2017/1110/13/02.jpg> (referer: None)
+2017-11-14 23:19:17 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://img.aitaotu.cc:8089/Pics/2017/1110/13/02.jpg> referred in <None>
+2017-11-14 23:19:17 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.aitaotu.com/guonei/34018.html>
+{'img_url': 'https://img.aitaotu.cc:8089/Pics/2017/1110/13/02.jpg',
+ 'ref_url': 'https://www.aitaotu.com/guonei/34018.html',
+ 'title': '[尤蜜荟] 妖娆销魂美臀美女刘钰儿性感写真 Vol.065'}
+2017-11-14 23:19:19 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://img.aitaotu.cc:8089/Pics/2017/0821/11/02.jpg> (referer: None)
+2017-11-14 23:19:19 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://img.aitaotu.cc:8089/Pics/2017/0821/11/02.jpg> referred in <None>
+2017-11-14 23:19:19 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.aitaotu.com/guonei/32961.html>
+{'img_url': 'https://img.aitaotu.cc:8089/Pics/2017/0821/11/02.jpg',
+ 'ref_url': 'https://www.aitaotu.com/guonei/32961.html',
+ 'title': '[星乐园] 年轻漂亮的美女刘钰儿吊带睡裙写真 VOL.045'}
+2017-11-14 23:19:19 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://img.aitaotu.cc:8089/Pics/2017/1101/12/01.jpg> (referer: None)
+2017-11-14 23:19:19 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://img.aitaotu.cc:8089/Pics/2017/1101/12/01.jpg> referred in <None>
+2017-11-14 23:19:20 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.aitaotu.com/guonei/33896.html>
+{'img_url': 'https://img.aitaotu.cc:8089/Pics/2017/1101/12/01.jpg',
+ 'ref_url': 'https://www.aitaotu.com/guonei/33896.html',
+ 'title': '[尤蜜荟] 大胆性感爆乳模特妲己_Toxic西西人体奶照 Vol.063'}
+2017-11-14 23:19:20 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://img.aitaotu.cc:8089/Pics/2017/1110/13/01.jpg> (referer: None)
+2017-11-14 23:19:20 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://img.aitaotu.cc:8089/Pics/2017/1110/13/01.jpg> referred in <None>
+2017-11-14 23:19:21 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.aitaotu.com/guonei/34018.html>
+{'img_url': 'https://img.aitaotu.cc:8089/Pics/2017/1110/13/01.jpg',
+ 'ref_url': 'https://www.aitaotu.com/guonei/34018.html',
+ 'title': '[尤蜜荟] 妖娆销魂美臀美女刘钰儿性感写真 Vol.065'}
+2017-11-14 23:19:21 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://img.aitaotu.cc:8089/Pics/2015/1202/09/01.jpg> (referer: None)
+2017-11-14 23:19:21 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://img.aitaotu.cc:8089/Pics/2015/1202/09/01.jpg> referred in <None>
+2017-11-14 23:19:22 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.aitaotu.com/guonei/10623.html>
+{'img_url': 'https://img.aitaotu.cc:8089/Pics/2015/1202/09/01.jpg',
+ 'ref_url': 'https://www.aitaotu.com/guonei/10623.html',
+ 'title': '[赤足者]美腿姐妹花兰兰莉莉性感玉足棚拍图片No.076'}
+2017-11-14 23:19:24 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.aitaotu.com/tag/shanghaixuancai/2.html> (referer: https://www.aitaotu.com/tag/shanghaixuancai.html)
+2017-11-14 23:19:25 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.aitaotu.com/tag/meixiu/2.html> (referer: https://www.aitaotu.com/tag/meixiu.html)
+2017-11-14 23:19:26 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://img.aitaotu.cc:8089/Pics/2015/1210/06/01.jpg> (referer: None)
+2017-11-14 23:19:26 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://img.aitaotu.cc:8089/Pics/2015/1210/06/01.jpg> referred in <None>
+2017-11-14 23:19:27 [scrapy.pipelines.files] ERROR: File (unknown-error): Error processing file from <GET https://img.aitaotu.cc:8089/Pics/2015/1210/06/01.jpg> referred in <None>
+Traceback (most recent call last):
+  File "C:\Python34\lib\site-packages\twisted\internet\defer.py", line 1386, in _inlineCallbacks
+    result = g.send(result)
+  File "C:\Python34\lib\site-packages\scrapy\core\downloader\middleware.py", line 43, in process_request
+    defer.returnValue((yield download_func(request=request,spider=spider)))
+  File "C:\Python34\lib\site-packages\twisted\internet\defer.py", line 1363, in returnValue
+    raise _DefGen_Return(val)
+twisted.internet.defer._DefGen_Return: <200 https://img.aitaotu.cc:8089/Pics/2015/1210/06/01.jpg>
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python34\lib\site-packages\scrapy\pipelines\files.py", line 356, in media_downloaded
+    checksum = self.file_downloaded(response, request, info)
+  File "C:\Python34\lib\site-packages\scrapy\pipelines\images.py", line 98, in file_downloaded
+    return self.image_downloaded(response, request, info)
+  File "C:\Python34\lib\site-packages\scrapy\pipelines\images.py", line 110, in image_downloaded
+    headers={'Content-Type': 'image/jpeg'})
+  File "C:\Python34\lib\site-packages\scrapy\pipelines\files.py", line 54, in persist_file
+    with open(absolute_path, 'wb') as f:
+FileNotFoundError: [Errno 2] No such file or directory: 'C:/Tang/Develop/Python/work/full\\[上海炫彩摄影]肉丝美女丁丁短裙诱惑第101期 \\https$$img.aitaotu.cc8089$Pics$2015$1210$06$01.jpg'
+2017-11-14 23:19:28 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.aitaotu.com/guonei/10671.html> (referer: https://www.aitaotu.com/tag/shanghaixuancai/2.html)
+2017-11-14 23:19:28 [scrapy.core.scraper] WARNING: Dropped: Item contains no images
+{'img_url': 'https://img.aitaotu.cc:8089/Pics/2015/1210/06/01.jpg',
+ 'ref_url': 'https://www.aitaotu.com/guonei/11040.html',
+ 'title': '[上海炫彩摄影]肉丝美女丁丁短裙诱惑第101期 '}
+2017-11-14 23:19:28 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.aitaotu.com/guonei/13760.html> (referer: https://www.aitaotu.com/tag/meixiu/2.html)
+2017-11-14 23:19:29 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.aitaotu.com/guonei/13759.html> (referer: https://www.aitaotu.com/tag/meixiu/2.html)
+2017-11-14 23:19:29 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://img.aitaotu.cc:8089/Pics/2016/0825/06/02.jpg> (referer: None)
+2017-11-14 23:19:29 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://img.aitaotu.cc:8089/Pics/2016/0825/06/02.jpg> referred in <None>
+2017-11-14 23:19:30 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.aitaotu.com/guonei/24826.html>
+{'img_url': 'https://img.aitaotu.cc:8089/Pics/2016/0825/06/02.jpg',
+ 'ref_url': 'https://www.aitaotu.com/guonei/24826.html',
+ 'title': '[美秀] 水嫩玉足图片 NO.086'}
+2017-11-14 23:19:30 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://img.aitaotu.cc:8089/Pics/2015/1202/09/02.jpg> (referer: None)
+2017-11-14 23:19:30 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://img.aitaotu.cc:8089/Pics/2015/1202/09/02.jpg> referred in <None>
+2017-11-14 23:19:31 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://img.aitaotu.cc:8089/Pics/2016/0825/06/01.jpg> (referer: None)
+2017-11-14 23:19:31 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://img.aitaotu.cc:8089/Pics/2016/0825/06/01.jpg> referred in <None>
+2017-11-14 23:19:32 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.aitaotu.com/guonei/10623.html>
+{'img_url': 'https://img.aitaotu.cc:8089/Pics/2015/1202/09/02.jpg',
+ 'ref_url': 'https://www.aitaotu.com/guonei/10623.html',
+ 'title': '[赤足者]美腿姐妹花兰兰莉莉性感玉足棚拍图片No.076'}
+2017-11-14 23:19:32 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://img.aitaotu.cc:8089/Pics/2017/0819/06/01.jpg> (referer: None)
+2017-11-14 23:19:32 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://img.aitaotu.cc:8089/Pics/2017/0819/06/01.jpg> referred in <None>
+2017-11-14 23:19:32 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.aitaotu.com/guonei/24826.html>
+{'img_url': 'https://img.aitaotu.cc:8089/Pics/2016/0825/06/01.jpg',
+ 'ref_url': 'https://www.aitaotu.com/guonei/24826.html',
+ 'title': '[美秀] 水嫩玉足图片 NO.086'}
+2017-11-14 23:19:32 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.aitaotu.com/tag/meixiu/3.html> (referer: https://www.aitaotu.com/tag/meixiu/2.html)
+2017-11-14 23:19:32 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.aitaotu.com/guonei/32930.html>
+{'img_url': 'https://img.aitaotu.cc:8089/Pics/2017/0819/06/01.jpg',
+ 'ref_url': 'https://www.aitaotu.com/guonei/32930.html',
+ 'title': '[星乐园] 大胆黑丝美女秘书大熙性感内衣酒店写真 VOL.044'}
+2017-11-14 23:19:33 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.aitaotu.com/guonei/11183.html> (referer: https://www.aitaotu.com/tag/meixiu/2.html)
+2017-11-14 23:19:33 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.aitaotu.com/guonei/11184.html> (referer: https://www.aitaotu.com/tag/meixiu/2.html)
+2017-11-14 23:19:33 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.aitaotu.com/guonei/11182.html> (referer: https://www.aitaotu.com/tag/meixiu/3.html)
+2017-11-14 23:19:33 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.aitaotu.com/guonei/11350.html> (referer: https://www.aitaotu.com/tag/meixiu/2.html)
+2017-11-14 23:19:34 [scrapy.extensions.logstats] INFO: Crawled 62 pages (at 62 pages/min), scraped 21 items (at 21 items/min)
+2017-11-14 23:19:34 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.aitaotu.com/guonei/11319.html> (referer: https://www.aitaotu.com/tag/meixiu/2.html)
+2017-11-14 23:19:37 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://img.aitaotu.cc:8089/Pics/2015/1202/11/03.jpg> (referer: None)
+2017-11-14 23:19:37 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://img.aitaotu.cc:8089/Pics/2015/1202/11/03.jpg> referred in <None>
+2017-11-14 23:19:37 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.aitaotu.com/guonei/10625_2.html>
+{'img_url': 'https://img.aitaotu.cc:8089/Pics/2015/1202/11/03.jpg',
+ 'ref_url': 'https://www.aitaotu.com/guonei/10625.html',
+ 'title': '[赤足者]制服美女长腿诱惑写真No.078'}
+2017-11-14 23:19:37 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://img.aitaotu.cc:8089/Pics/2017/0819/06/02.jpg> (referer: None)
+2017-11-14 23:19:37 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://img.aitaotu.cc:8089/Pics/2017/0819/06/02.jpg> referred in <None>
+2017-11-14 23:19:38 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.aitaotu.com/guonei/32930.html>
+{'img_url': 'https://img.aitaotu.cc:8089/Pics/2017/0819/06/02.jpg',
+ 'ref_url': 'https://www.aitaotu.com/guonei/32930.html',
+ 'title': '[星乐园] 大胆黑丝美女秘书大熙性感内衣酒店写真 VOL.044'}
+2017-11-14 23:19:40 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://img.aitaotu.cc:8089/Pics/2016/0205/08/01.jpg> (referer: None)
+2017-11-14 23:19:40 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://img.aitaotu.cc:8089/Pics/2016/0205/08/01.jpg> referred in <None>
+2017-11-14 23:19:40 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.aitaotu.com/guonei/14653.html>
+{'img_url': 'https://img.aitaotu.cc:8089/Pics/2016/0205/08/01.jpg',
+ 'ref_url': 'https://www.aitaotu.com/guonei/14653.html',
+ 'title': '[飞图网]丰满美女LN莉娜浴室人体大胆艺术诱惑图No.009'}
+2017-11-14 23:19:42 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://img.aitaotu.cc:8089/Pics/2015/1202/11/04.jpg> (referer: None)
+2017-11-14 23:19:42 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://img.aitaotu.cc:8089/Pics/2015/1202/11/04.jpg> referred in <None>
+2017-11-14 23:19:43 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.aitaotu.com/guonei/10625_2.html>
+{'img_url': 'https://img.aitaotu.cc:8089/Pics/2015/1202/11/04.jpg',
+ 'ref_url': 'https://www.aitaotu.com/guonei/10625.html',
+ 'title': '[赤足者]制服美女长腿诱惑写真No.078'}
+2017-11-14 23:19:44 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://img.aitaotu.cc:8089/Pics/2016/0825/05/02.jpg> (referer: None)
+2017-11-14 23:19:44 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://img.aitaotu.cc:8089/Pics/2016/0825/05/02.jpg> referred in <None>
+2017-11-14 23:19:45 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.aitaotu.com/guonei/24824.html>
+{'img_url': 'https://img.aitaotu.cc:8089/Pics/2016/0825/05/02.jpg',
+ 'ref_url': 'https://www.aitaotu.com/guonei/24824.html',
+ 'title': '[美秀] 美腿少妇Ying极品薄丝凉高美足私拍照 NO.085'}
+2017-11-14 23:21:34 [scrapy.utils.log] INFO: Scrapy 1.4.0 started (bot: anycrawl)
+2017-11-14 23:21:34 [scrapy.utils.log] INFO: Overridden settings: {'NEWSPIDER_MODULE': 'anycrawl.spiders', 'SPIDER_MODULES': ['anycrawl.spiders'], 'LOG_FILE': 'scrapy.log', 'BOT_NAME': 'anycrawl'}
+2017-11-14 23:21:34 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats',
+ 'scrapy.extensions.spiderstate.SpiderState',
+ 'scrapy.extensions.corestats.CoreStats']
+2017-11-14 23:21:35 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'anycrawl.middlewares.AnycrawlSpiderMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2017-11-14 23:21:35 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2017-11-14 23:21:35 [scrapy.middleware] INFO: Enabled item pipelines:
+['anycrawl.pipelines.AitaotuPipeline']
+2017-11-14 23:21:35 [scrapy.core.engine] INFO: Spider opened
+2017-11-14 23:21:35 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2017-11-14 23:21:35 [aitaotuSpider] INFO: Spider opened: aitaotuSpider
+2017-11-14 23:21:35 [scrapy.extensions.telnet] DEBUG: Telnet console listening on 127.0.0.1:6023
+2017-11-14 23:21:37 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.aitaotu.com/tag/aimishe.html> (referer: None)
+2017-11-14 23:21:37 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.aitaotu.com/tag/aixiu.html> (referer: None)
+2017-11-14 23:21:37 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.aitaotu.com/tag/youmihui.html> (referer: None)
+2017-11-14 23:21:37 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.aitaotu.com/tag/xingleyuan.html> (referer: None)
+2017-11-14 23:21:37 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.aitaotu.com/tag/ruyixiezhen.html> (referer: None)
+2017-11-14 23:21:37 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.aitaotu.com/tag/shanghaixuancai.html> (referer: None)
+2017-11-14 23:21:37 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.aitaotu.com/tag/meixiu.html> (referer: None)
+2017-11-14 23:21:37 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.aitaotu.com/tag/feituwang.html> (referer: None)
+2017-11-14 23:21:37 [scrapy.dupefilters] DEBUG: Filtered duplicate request: <GET https://www.aitaotu.com/tag/youmihui.html> - no more duplicates will be shown (see DUPEFILTER_DEBUG to show all duplicates)
+2017-11-14 23:21:37 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.aitaotu.com/tag/aimishe.html> (referer: https://www.aitaotu.com/tag/aimishe.html)
+2017-11-14 23:21:37 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.aitaotu.com/tag/meituibaobei.html> (referer: None)
+2017-11-14 23:21:37 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.aitaotu.com/tag/aixiu.html> (referer: https://www.aitaotu.com/tag/aixiu.html)
+2017-11-14 23:21:37 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.aitaotu.com/tag/ruyixiezhen.html> (referer: https://www.aitaotu.com/tag/ruyixiezhen.html)
+2017-11-14 23:21:38 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.aitaotu.com/tag/meituibaobei.html> (referer: https://www.aitaotu.com/tag/meituibaobei.html)
+2017-11-14 23:21:38 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.aitaotu.com/guonei/34027.html> (referer: https://www.aitaotu.com/tag/aimishe.html)
+2017-11-14 23:21:38 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.aitaotu.com/guonei/33962.html> (referer: https://www.aitaotu.com/tag/aimishe.html)
+2017-11-14 23:21:39 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.aitaotu.com/guonei/34069.html> (referer: https://www.aitaotu.com/tag/aixiu.html)
+2017-11-14 23:21:39 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.aitaotu.com/guonei/33985.html> (referer: https://www.aitaotu.com/tag/aixiu.html)
+2017-11-14 23:21:39 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.aitaotu.com/guonei/33786.html> (referer: https://www.aitaotu.com/tag/aimishe.html)
+2017-11-14 23:21:39 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.aitaotu.com/guonei/33959.html> (referer: https://www.aitaotu.com/tag/aixiu.html)
+2017-11-14 23:21:39 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.aitaotu.com/guonei/27684.html> (referer: https://www.aitaotu.com/tag/ruyixiezhen.html)
+2017-11-14 23:21:40 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.aitaotu.com/guonei/33771.html> (referer: https://www.aitaotu.com/tag/aimishe.html)
+2017-11-14 23:21:40 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.aitaotu.com/guonei/30457.html> (referer: https://www.aitaotu.com/tag/meituibaobei.html)
+2017-11-14 23:21:41 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.aitaotu.com/guonei/34027_2.html> (referer: https://www.aitaotu.com/guonei/34027.html)
+2017-11-14 23:21:41 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.aitaotu.com/guonei/33716.html> (referer: https://www.aitaotu.com/tag/aixiu.html)
+2017-11-14 23:21:41 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.aitaotu.com/guonei/33735.html> (referer: https://www.aitaotu.com/tag/aimishe.html)
+2017-11-14 23:21:42 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.aitaotu.com/guonei/27719.html> (referer: https://www.aitaotu.com/tag/ruyixiezhen.html)
+2017-11-14 23:21:42 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.aitaotu.com/guonei/33908.html> (referer: https://www.aitaotu.com/tag/aimishe.html)
+2017-11-14 23:21:42 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.aitaotu.com/guonei/33962_2.html> (referer: https://www.aitaotu.com/guonei/33962.html)
+2017-11-14 23:21:44 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.aitaotu.com/guonei/30400.html> (referer: https://www.aitaotu.com/tag/meituibaobei.html)
+2017-11-14 23:21:44 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.aitaotu.com/guonei/25912.html> (referer: https://www.aitaotu.com/tag/ruyixiezhen.html)
+2017-11-14 23:21:48 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://img.aitaotu.cc:8089/Pics/2017/1106/11/02.jpg> (referer: None)
+2017-11-14 23:21:48 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://img.aitaotu.cc:8089/Pics/2017/1106/11/02.jpg> referred in <None>
+2017-11-14 23:21:48 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.aitaotu.com/guonei/33962.html>
+{'img_url': 'https://img.aitaotu.cc:8089/Pics/2017/1106/11/02.jpg',
+ 'ref_url': 'https://www.aitaotu.com/guonei/33962.html',
+ 'title': '[爱蜜社] 高清养眼内衣嫩模美女杨晨晨sugar网袜写真 Vol.183'}
+2017-11-14 23:21:52 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://img.aitaotu.cc:8089/Pics/2017/1024/12/01.jpg> (referer: None)
+2017-11-14 23:21:52 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://img.aitaotu.cc:8089/Pics/2017/1024/12/01.jpg> referred in <None>
+2017-11-14 23:21:52 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.aitaotu.com/guonei/33786.html>
+{'img_url': 'https://img.aitaotu.cc:8089/Pics/2017/1024/12/01.jpg',
+ 'ref_url': 'https://www.aitaotu.com/guonei/33786.html',
+ 'title': '[爱蜜社] 养眼美女杨晨晨sugar超薄白丝袜秀 Vol.181'}
+2017-11-14 23:21:56 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://img.aitaotu.cc:8089/Pics/2017/1106/08/01.jpg> (referer: None)
+2017-11-14 23:21:56 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://img.aitaotu.cc:8089/Pics/2017/1106/08/01.jpg> referred in <None>
+2017-11-14 23:21:57 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.aitaotu.com/guonei/33959.html>
+{'img_url': 'https://img.aitaotu.cc:8089/Pics/2017/1106/08/01.jpg',
+ 'ref_url': 'https://www.aitaotu.com/guonei/33959.html',
+ 'title': '[爱秀] 漂亮的护士刘玥菲Phoebe丝袜美腿秀 NO.121'}
+2017-11-14 23:22:03 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://img.aitaotu.cc:8089/Pics/2017/1106/08/02.jpg> (referer: None)
+2017-11-14 23:22:03 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://img.aitaotu.cc:8089/Pics/2017/1106/08/02.jpg> referred in <None>
+2017-11-14 23:22:04 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.aitaotu.com/guonei/33959.html>
+{'img_url': 'https://img.aitaotu.cc:8089/Pics/2017/1106/08/02.jpg',
+ 'ref_url': 'https://www.aitaotu.com/guonei/33959.html',
+ 'title': '[爱秀] 漂亮的护士刘玥菲Phoebe丝袜美腿秀 NO.121'}
+2017-11-14 23:22:08 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://img.aitaotu.cc:8089/Pics/2016/1216/08/01.jpg> (referer: None)
+2017-11-14 23:22:08 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://img.aitaotu.cc:8089/Pics/2016/1216/08/01.jpg> referred in <None>
+2017-11-14 23:22:08 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.aitaotu.com/guonei/27684.html>
+{'img_url': 'https://img.aitaotu.cc:8089/Pics/2016/1216/08/01.jpg',
+ 'ref_url': 'https://www.aitaotu.com/guonei/27684.html',
+ 'title': '[RU1MM] 丝袜美臀集 No.349'}
+2017-11-14 23:22:16 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://img.aitaotu.cc:8089/Pics/2017/1114/08/01.jpg> (referer: None)
+2017-11-14 23:22:16 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://img.aitaotu.cc:8089/Pics/2017/1114/08/01.jpg> referred in <None>
+2017-11-14 23:22:17 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.aitaotu.com/guonei/34069.html>
+{'img_url': 'https://img.aitaotu.cc:8089/Pics/2017/1114/08/01.jpg',
+ 'ref_url': 'https://www.aitaotu.com/guonei/34069.html',
+ 'title': '[爱秀] 亮丝一体裤美女杨绮莉高跟鞋写真 NO.126'}
+2017-11-14 23:22:25 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://img.aitaotu.cc:8089/Pics/2017/1106/11/01.jpg> (referer: None)
+2017-11-14 23:22:25 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://img.aitaotu.cc:8089/Pics/2017/1106/11/01.jpg> referred in <None>
+2017-11-14 23:22:25 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.aitaotu.com/guonei/33962.html>
+{'img_url': 'https://img.aitaotu.cc:8089/Pics/2017/1106/11/01.jpg',
+ 'ref_url': 'https://www.aitaotu.com/guonei/33962.html',
+ 'title': '[爱蜜社] 高清养眼内衣嫩模美女杨晨晨sugar网袜写真 Vol.183'}
+2017-11-14 23:22:28 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://img.aitaotu.cc:8089/Pics/2017/1024/12/02.jpg> (referer: None)
+2017-11-14 23:22:28 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://img.aitaotu.cc:8089/Pics/2017/1024/12/02.jpg> referred in <None>
+2017-11-14 23:22:30 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://img.aitaotu.cc:8089/Pics/2017/1114/08/02.jpg> (referer: None)
+2017-11-14 23:22:30 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://img.aitaotu.cc:8089/Pics/2017/1114/08/02.jpg> referred in <None>
+2017-11-14 23:22:31 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.aitaotu.com/guonei/33786.html>
+{'img_url': 'https://img.aitaotu.cc:8089/Pics/2017/1024/12/02.jpg',
+ 'ref_url': 'https://www.aitaotu.com/guonei/33786.html',
+ 'title': '[爱蜜社] 养眼美女杨晨晨sugar超薄白丝袜秀 Vol.181'}
+2017-11-14 23:22:31 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.aitaotu.com/guonei/34069.html>
+{'img_url': 'https://img.aitaotu.cc:8089/Pics/2017/1114/08/02.jpg',
+ 'ref_url': 'https://www.aitaotu.com/guonei/34069.html',
+ 'title': '[爱秀] 亮丝一体裤美女杨绮莉高跟鞋写真 NO.126'}
+2017-11-14 23:22:33 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://img.aitaotu.cc:8089/Pics/2017/1111/09/01.jpg> (referer: None)
+2017-11-14 23:22:33 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://img.aitaotu.cc:8089/Pics/2017/1111/09/01.jpg> referred in <None>
+2017-11-14 23:22:34 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.aitaotu.com/guonei/34027.html>
+{'img_url': 'https://img.aitaotu.cc:8089/Pics/2017/1111/09/01.jpg',
+ 'ref_url': 'https://www.aitaotu.com/guonei/34027.html',
+ 'title': '[爱蜜社] 爆乳mm妤薇Vivian火辣辣的身材旅拍高清套图 Vol.184'}
+2017-11-14 23:22:35 [scrapy.extensions.logstats] INFO: Crawled 40 pages (at 40 pages/min), scraped 10 items (at 10 items/min)
+2017-11-14 23:22:36 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://img.aitaotu.cc:8089/Pics/2016/1216/08/02.jpg> (referer: None)
+2017-11-14 23:22:36 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://img.aitaotu.cc:8089/Pics/2016/1216/08/02.jpg> referred in <None>
+2017-11-14 23:22:36 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://img.aitaotu.cc:8089/Pics/2017/1108/08/01.jpg> (referer: None)
+2017-11-14 23:22:36 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://img.aitaotu.cc:8089/Pics/2017/1108/08/01.jpg> referred in <None>
+2017-11-14 23:22:36 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.aitaotu.com/guonei/27684.html>
+{'img_url': 'https://img.aitaotu.cc:8089/Pics/2016/1216/08/02.jpg',
+ 'ref_url': 'https://www.aitaotu.com/guonei/27684.html',
+ 'title': '[RU1MM] 丝袜美臀集 No.349'}
+2017-11-14 23:22:37 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.aitaotu.com/guonei/33985.html>
+{'img_url': 'https://img.aitaotu.cc:8089/Pics/2017/1108/08/01.jpg',
+ 'ref_url': 'https://www.aitaotu.com/guonei/33985.html',
+ 'title': '[爱秀] 高跟鞋美女护士林沐沐Liny性感薄丝写真 NO.124'}
+2017-11-14 23:22:37 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://img.aitaotu.cc:8089/Pics/2017/1111/09/02.jpg> (referer: None)
+2017-11-14 23:22:37 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://img.aitaotu.cc:8089/Pics/2017/1111/09/02.jpg> referred in <None>
+2017-11-14 23:22:37 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.aitaotu.com/guonei/34027.html>
+{'img_url': 'https://img.aitaotu.cc:8089/Pics/2017/1111/09/02.jpg',
+ 'ref_url': 'https://www.aitaotu.com/guonei/34027.html',
+ 'title': '[爱蜜社] 爆乳mm妤薇Vivian火辣辣的身材旅拍高清套图 Vol.184'}
+2017-11-14 23:22:45 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://img.aitaotu.cc:8089/Pics/2017/0330/13/07.jpg> (referer: None)
+2017-11-14 23:22:45 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://img.aitaotu.cc:8089/Pics/2017/0330/13/07.jpg> referred in <None>
+2017-11-14 23:22:45 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.aitaotu.com/guonei/30457.html>
+{'img_url': 'https://img.aitaotu.cc:8089/Pics/2017/0330/13/07.jpg',
+ 'ref_url': 'https://www.aitaotu.com/guonei/30457.html',
+ 'title': '[美腿宝贝] 蕾丝真空美女若兮油亮丝袜诱惑图片'}
+2017-11-14 23:22:48 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://img.aitaotu.cc:8089/Pics/2017/0330/13/08.jpg> (referer: None)
+2017-11-14 23:22:48 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://img.aitaotu.cc:8089/Pics/2017/0330/13/08.jpg> referred in <None>
+2017-11-14 23:22:49 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.aitaotu.com/guonei/30457.html>
+{'img_url': 'https://img.aitaotu.cc:8089/Pics/2017/0330/13/08.jpg',
+ 'ref_url': 'https://www.aitaotu.com/guonei/30457.html',
+ 'title': '[美腿宝贝] 蕾丝真空美女若兮油亮丝袜诱惑图片'}
+2017-11-14 23:22:53 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://img.aitaotu.cc:8089/Pics/2017/1108/08/02.jpg> (referer: None)
+2017-11-14 23:22:53 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://img.aitaotu.cc:8089/Pics/2017/1108/08/02.jpg> referred in <None>
+2017-11-14 23:22:54 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.aitaotu.com/guonei/33985.html>
+{'img_url': 'https://img.aitaotu.cc:8089/Pics/2017/1108/08/02.jpg',
+ 'ref_url': 'https://www.aitaotu.com/guonei/33985.html',
+ 'title': '[爱秀] 高跟鞋美女护士林沐沐Liny性感薄丝写真 NO.124'}
+2017-11-14 23:22:58 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://img.aitaotu.cc:8089/Pics/2017/1111/09/03.jpg> (referer: None)
+2017-11-14 23:22:58 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://img.aitaotu.cc:8089/Pics/2017/1111/09/03.jpg> referred in <None>
+2017-11-14 23:22:59 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://img.aitaotu.cc:8089/Pics/2017/1023/12/01.jpg> (referer: None)
+2017-11-14 23:22:59 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://img.aitaotu.cc:8089/Pics/2017/1023/12/01.jpg> referred in <None>
+2017-11-14 23:22:59 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.aitaotu.com/guonei/34027_2.html>
+{'img_url': 'https://img.aitaotu.cc:8089/Pics/2017/1111/09/03.jpg',
+ 'ref_url': 'https://www.aitaotu.com/guonei/34027.html',
+ 'title': '[爱蜜社] 爆乳mm妤薇Vivian火辣辣的身材旅拍高清套图 Vol.184'}
+2017-11-14 23:22:59 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://img.aitaotu.cc:8089/Pics/2017/0330/13/06.jpg> (referer: None)
+2017-11-14 23:22:59 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://img.aitaotu.cc:8089/Pics/2017/0330/13/06.jpg> referred in <None>
+2017-11-14 23:22:59 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.aitaotu.com/guonei/33771.html>
+{'img_url': 'https://img.aitaotu.cc:8089/Pics/2017/1023/12/01.jpg',
+ 'ref_url': 'https://www.aitaotu.com/guonei/33771.html',
+ 'title': '[爱蜜社] 高清热裤美女小狐狸Sica户外小清新写真 Vol.180'}
+2017-11-14 23:22:59 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.aitaotu.com/guonei/30457.html>
+{'img_url': 'https://img.aitaotu.cc:8089/Pics/2017/0330/13/06.jpg',
+ 'ref_url': 'https://www.aitaotu.com/guonei/30457.html',
+ 'title': '[美腿宝贝] 蕾丝真空美女若兮油亮丝袜诱惑图片'}
+2017-11-14 23:23:00 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://img.aitaotu.cc:8089/Pics/2017/1023/12/02.jpg> (referer: None)
+2017-11-14 23:23:00 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://img.aitaotu.cc:8089/Pics/2017/1023/12/02.jpg> referred in <None>
+2017-11-14 23:23:00 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.aitaotu.com/guonei/33771.html>
+{'img_url': 'https://img.aitaotu.cc:8089/Pics/2017/1023/12/02.jpg',
+ 'ref_url': 'https://www.aitaotu.com/guonei/33771.html',
+ 'title': '[爱蜜社] 高清热裤美女小狐狸Sica户外小清新写真 Vol.180'}
+2017-11-14 23:23:01 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://img.aitaotu.cc:8089/Pics/2017/0330/13/09.jpg> (referer: None)
+2017-11-14 23:23:01 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://img.aitaotu.cc:8089/Pics/2017/0330/13/09.jpg> referred in <None>
+2017-11-14 23:23:01 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.aitaotu.com/guonei/30457.html>
+{'img_url': 'https://img.aitaotu.cc:8089/Pics/2017/0330/13/09.jpg',
+ 'ref_url': 'https://www.aitaotu.com/guonei/30457.html',
+ 'title': '[美腿宝贝] 蕾丝真空美女若兮油亮丝袜诱惑图片'}
+2017-11-14 23:23:11 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://img.aitaotu.cc:8089/Pics/2016/1217/08/01.jpg> (referer: None)
+2017-11-14 23:23:11 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://img.aitaotu.cc:8089/Pics/2016/1217/08/01.jpg> referred in <None>
+2017-11-14 23:23:12 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.aitaotu.com/guonei/27719.html>
+{'img_url': 'https://img.aitaotu.cc:8089/Pics/2016/1217/08/01.jpg',
+ 'ref_url': 'https://www.aitaotu.com/guonei/27719.html',
+ 'title': '[RU1MM] 透视内裤美女美臀秀性感私拍照 No.350'}
+2017-11-14 23:23:12 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://img.aitaotu.cc:8089/Pics/2017/0330/13/10.jpg> (referer: None)
+2017-11-14 23:23:12 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://img.aitaotu.cc:8089/Pics/2017/0330/13/10.jpg> referred in <None>
+2017-11-14 23:23:12 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.aitaotu.com/guonei/30457.html>
+{'img_url': 'https://img.aitaotu.cc:8089/Pics/2017/0330/13/10.jpg',
+ 'ref_url': 'https://www.aitaotu.com/guonei/30457.html',
+ 'title': '[美腿宝贝] 蕾丝真空美女若兮油亮丝袜诱惑图片'}
+2017-11-14 23:23:12 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.aitaotu.com/tag/meituibaobei/2.html> (referer: https://www.aitaotu.com/tag/meituibaobei.html)
+2017-11-14 23:23:13 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.aitaotu.com/tag/ruyixiezhen/2.html> (referer: https://www.aitaotu.com/tag/ruyixiezhen.html)
+2017-11-14 23:23:16 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.aitaotu.com/guonei/24869.html> (referer: https://www.aitaotu.com/tag/meituibaobei.html)
+2017-11-14 23:23:16 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.aitaotu.com/guonei/24753.html> (referer: https://www.aitaotu.com/tag/meituibaobei/2.html)
+2017-11-14 23:23:16 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.aitaotu.com/tag/ruyixiezhen/3.html> (referer: https://www.aitaotu.com/tag/ruyixiezhen/2.html)
+2017-11-14 23:23:17 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://img.aitaotu.cc:8089/Pics/2017/1111/09/04.jpg> (referer: None)
+2017-11-14 23:23:17 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://img.aitaotu.cc:8089/Pics/2017/1111/09/04.jpg> referred in <None>
+2017-11-14 23:23:18 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://img.aitaotu.cc:8089/Pics/2017/1020/13/01.jpg> (referer: None)
+2017-11-14 23:23:18 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://img.aitaotu.cc:8089/Pics/2017/1020/13/01.jpg> referred in <None>
+2017-11-14 23:23:18 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.aitaotu.com/guonei/34027_2.html>
+{'img_url': 'https://img.aitaotu.cc:8089/Pics/2017/1111/09/04.jpg',
+ 'ref_url': 'https://www.aitaotu.com/guonei/34027.html',
+ 'title': '[爱蜜社] 爆乳mm妤薇Vivian火辣辣的身材旅拍高清套图 Vol.184'}
+2017-11-14 23:23:18 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.aitaotu.com/guonei/33735.html>
+{'img_url': 'https://img.aitaotu.cc:8089/Pics/2017/1020/13/01.jpg',
+ 'ref_url': 'https://www.aitaotu.com/guonei/33735.html',
+ 'title': '[爱蜜社] 极品气质白富美妤薇Vivian高清写真 Vol.179'}
+2017-11-14 23:23:19 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://img.aitaotu.cc:8089/Pics/2017/1102/12/01.jpg> (referer: None)
+2017-11-14 23:23:19 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://img.aitaotu.cc:8089/Pics/2017/1102/12/01.jpg> referred in <None>
+2017-11-14 23:23:19 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.aitaotu.com/guonei/33908.html>
+{'img_url': 'https://img.aitaotu.cc:8089/Pics/2017/1102/12/01.jpg',
+ 'ref_url': 'https://www.aitaotu.com/guonei/33908.html',
+ 'title': '[爱蜜社] 长腿牛仔热裤女小狐狸Sica高清旅拍写真 Vol.182'}
+2017-11-14 23:23:20 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.aitaotu.com/tag/ruyixiezhen/4.html> (referer: https://www.aitaotu.com/tag/ruyixiezhen/3.html)
+2017-11-14 23:23:20 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.aitaotu.com/guonei/2208.html> (referer: https://www.aitaotu.com/tag/ruyixiezhen/3.html)
+2017-11-14 23:23:21 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.aitaotu.com/guonei/2188.html> (referer: https://www.aitaotu.com/tag/ruyixiezhen/4.html)
+2017-11-14 23:23:21 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://img.aitaotu.cc:8089/Pics/2017/1019/05/01.jpg> (referer: None)
+2017-11-14 23:23:21 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://img.aitaotu.cc:8089/Pics/2017/1019/05/01.jpg> referred in <None>
+2017-11-14 23:23:21 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.aitaotu.com/guonei/33716.html>
+{'img_url': 'https://img.aitaotu.cc:8089/Pics/2017/1019/05/01.jpg',
+ 'ref_url': 'https://www.aitaotu.com/guonei/33716.html',
+ 'title': '[爱秀] 黑薄丝袜嫩模杨晶晶长腿美脚写真 NO.120'}
+2017-11-14 23:23:22 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://img.aitaotu.cc:8089/Pics/2017/1020/13/02.jpg> (referer: None)
+2017-11-14 23:23:22 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://img.aitaotu.cc:8089/Pics/2017/1020/13/02.jpg> referred in <None>
+2017-11-14 23:23:22 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.aitaotu.com/guonei/33735.html>
+{'img_url': 'https://img.aitaotu.cc:8089/Pics/2017/1020/13/02.jpg',
+ 'ref_url': 'https://www.aitaotu.com/guonei/33735.html',
+ 'title': '[爱蜜社] 极品气质白富美妤薇Vivian高清写真 Vol.179'}
+2017-11-14 23:23:22 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://img.aitaotu.cc:8089/Pics/2017/1106/11/04.jpg> (referer: None)
+2017-11-14 23:23:22 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://img.aitaotu.cc:8089/Pics/2017/1106/11/04.jpg> referred in <None>
+2017-11-14 23:23:23 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.aitaotu.com/guonei/33962_2.html>
+{'img_url': 'https://img.aitaotu.cc:8089/Pics/2017/1106/11/04.jpg',
+ 'ref_url': 'https://www.aitaotu.com/guonei/33962.html',
+ 'title': '[爱蜜社] 高清养眼内衣嫩模美女杨晨晨sugar网袜写真 Vol.183'}
+2017-11-14 23:23:25 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://img.aitaotu.cc:8089/Pics/2017/1106/11/03.jpg> (referer: None)
+2017-11-14 23:23:25 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://img.aitaotu.cc:8089/Pics/2017/1106/11/03.jpg> referred in <None>
+2017-11-14 23:23:25 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.aitaotu.com/guonei/33962_2.html>
+{'img_url': 'https://img.aitaotu.cc:8089/Pics/2017/1106/11/03.jpg',
+ 'ref_url': 'https://www.aitaotu.com/guonei/33962.html',
+ 'title': '[爱蜜社] 高清养眼内衣嫩模美女杨晨晨sugar网袜写真 Vol.183'}
+2017-11-14 23:23:26 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://img.aitaotu.cc:8089/Pics/2017/1019/05/02.jpg> (referer: None)
+2017-11-14 23:23:26 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://img.aitaotu.cc:8089/Pics/2017/1019/05/02.jpg> referred in <None>
+2017-11-14 23:23:27 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.aitaotu.com/guonei/33716.html>
+{'img_url': 'https://img.aitaotu.cc:8089/Pics/2017/1019/05/02.jpg',
+ 'ref_url': 'https://www.aitaotu.com/guonei/33716.html',
+ 'title': '[爱秀] 黑薄丝袜嫩模杨晶晶长腿美脚写真 NO.120'}
+2017-11-14 23:23:31 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://img.aitaotu.cc:8089/Pics/2017/0328/14/01.jpg> (referer: None)
+2017-11-14 23:23:31 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://img.aitaotu.cc:8089/Pics/2017/0328/14/01.jpg> referred in <None>
+2017-11-14 23:23:31 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.aitaotu.com/guonei/30400.html>
+{'img_url': 'https://img.aitaotu.cc:8089/Pics/2017/0328/14/01.jpg',
+ 'ref_url': 'https://www.aitaotu.com/guonei/30400.html',
+ 'title': '[美腿宝贝 人气腿模若兮白丝无内高叉泳衣室内写真'}
+2017-11-14 23:23:32 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://img.aitaotu.cc:8089/Pics/2017/1102/12/02.jpg> (referer: None)
+2017-11-14 23:23:32 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://img.aitaotu.cc:8089/Pics/2017/1102/12/02.jpg> referred in <None>
+2017-11-14 23:23:33 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.aitaotu.com/guonei/33908.html>
+{'img_url': 'https://img.aitaotu.cc:8089/Pics/2017/1102/12/02.jpg',
+ 'ref_url': 'https://www.aitaotu.com/guonei/33908.html',
+ 'title': '[爱蜜社] 长腿牛仔热裤女小狐狸Sica高清旅拍写真 Vol.182'}
+2017-11-14 23:23:33 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://img.aitaotu.cc:8089/Pics/2016/0826/14/01.jpg> (referer: None)
+2017-11-14 23:23:33 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://img.aitaotu.cc:8089/Pics/2016/0826/14/01.jpg> referred in <None>
+2017-11-14 23:23:34 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.aitaotu.com/guonei/24869.html>
+{'img_url': 'https://img.aitaotu.cc:8089/Pics/2016/0826/14/01.jpg',
+ 'ref_url': 'https://www.aitaotu.com/guonei/24869.html',
+ 'title': '[LEGBABY] 美腿翘臀丝袜嫩模凯竹波霸人体艺术照 NO.016'}
+2017-11-14 23:23:35 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.aitaotu.com/tag/ruyixiezhen/5.html> (referer: https://www.aitaotu.com/tag/ruyixiezhen/4.html)
+2017-11-14 23:23:35 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.aitaotu.com/guonei/2153.html> (referer: https://www.aitaotu.com/tag/ruyixiezhen/4.html)
+2017-11-14 23:23:35 [scrapy.extensions.logstats] INFO: Crawled 74 pages (at 34 pages/min), scraped 34 items (at 24 items/min)
+2017-11-14 23:23:38 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.aitaotu.com/guonei/2132.html> (referer: https://www.aitaotu.com/tag/ruyixiezhen/5.html)
+2017-11-14 23:23:40 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://img.aitaotu.cc:8089/Pics/2017/0328/14/02.jpg> (referer: None)
+2017-11-14 23:23:40 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://img.aitaotu.cc:8089/Pics/2017/0328/14/02.jpg> referred in <None>
+2017-11-14 23:23:41 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.aitaotu.com/guonei/30400.html>
+{'img_url': 'https://img.aitaotu.cc:8089/Pics/2017/0328/14/02.jpg',
+ 'ref_url': 'https://www.aitaotu.com/guonei/30400.html',
+ 'title': '[美腿宝贝 人气腿模若兮白丝无内高叉泳衣室内写真'}
+2017-11-14 23:23:41 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://img.aitaotu.cc:8089/Pics/2017/0328/14/03.jpg> (referer: None)
+2017-11-14 23:23:41 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://img.aitaotu.cc:8089/Pics/2017/0328/14/03.jpg> referred in <None>
+2017-11-14 23:23:41 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.aitaotu.com/guonei/30400.html>
+{'img_url': 'https://img.aitaotu.cc:8089/Pics/2017/0328/14/03.jpg',
+ 'ref_url': 'https://www.aitaotu.com/guonei/30400.html',
+ 'title': '[美腿宝贝 人气腿模若兮白丝无内高叉泳衣室内写真'}
+2017-11-14 23:23:42 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://img.aitaotu.cc:8089/Pics/2015/0529/52/aitaotu_01.jpg> (referer: None)
+2017-11-14 23:23:42 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://img.aitaotu.cc:8089/Pics/2015/0529/52/aitaotu_01.jpg> referred in <None>
+2017-11-14 23:23:43 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.aitaotu.com/guonei/2208.html>
+{'img_url': 'https://img.aitaotu.cc:8089/Pics/2015/0529/52/aitaotu_01.jpg',
+ 'ref_url': 'https://www.aitaotu.com/guonei/2208.html',
+ 'title': '[RU1MM]No.285美女套图'}
+2017-11-14 23:23:43 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://img.aitaotu.cc:8089/Pics/2015/0529/52/aitaotu_03.jpg> (referer: None)
+2017-11-14 23:23:43 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://img.aitaotu.cc:8089/Pics/2015/0529/52/aitaotu_03.jpg> referred in <None>
+2017-11-14 23:23:43 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.aitaotu.com/guonei/2208.html>
+{'img_url': 'https://img.aitaotu.cc:8089/Pics/2015/0529/52/aitaotu_03.jpg',
+ 'ref_url': 'https://www.aitaotu.com/guonei/2208.html',
+ 'title': '[RU1MM]No.285美女套图'}
+2017-11-14 23:23:43 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://img.aitaotu.cc:8089/Pics/2015/0529/52/aitaotu_02.jpg> (referer: None)
+2017-11-14 23:23:43 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://img.aitaotu.cc:8089/Pics/2015/0529/52/aitaotu_02.jpg> referred in <None>
+2017-11-14 23:23:44 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.aitaotu.com/guonei/2208.html>
+{'img_url': 'https://img.aitaotu.cc:8089/Pics/2015/0529/52/aitaotu_02.jpg',
+ 'ref_url': 'https://www.aitaotu.com/guonei/2208.html',
+ 'title': '[RU1MM]No.285美女套图'}
+2017-11-14 23:23:44 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://img.aitaotu.cc:8089/Pics/2016/0826/14/02.jpg> (referer: None)
+2017-11-14 23:23:44 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://img.aitaotu.cc:8089/Pics/2016/0826/14/02.jpg> referred in <None>
+2017-11-14 23:23:44 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://img.aitaotu.cc:8089/Pics/2016/1014/09/01.jpg> (referer: None)
+2017-11-14 23:23:44 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://img.aitaotu.cc:8089/Pics/2016/1014/09/01.jpg> referred in <None>
+2017-11-14 23:23:45 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.aitaotu.com/guonei/24869.html>
+{'img_url': 'https://img.aitaotu.cc:8089/Pics/2016/0826/14/02.jpg',
+ 'ref_url': 'https://www.aitaotu.com/guonei/24869.html',
+ 'title': '[LEGBABY] 美腿翘臀丝袜嫩模凯竹波霸人体艺术照 NO.016'}
+2017-11-14 23:23:45 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://img.aitaotu.cc:8089/Pics/2016/1014/09/02.jpg> (referer: None)
+2017-11-14 23:23:45 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://img.aitaotu.cc:8089/Pics/2016/1014/09/02.jpg> referred in <None>
+2017-11-14 23:23:45 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.aitaotu.com/guonei/25912.html>
+{'img_url': 'https://img.aitaotu.cc:8089/Pics/2016/1014/09/01.jpg',
+ 'ref_url': 'https://www.aitaotu.com/guonei/25912.html',
+ 'title': '[RU1MM] 紧身黑丝超短裙美女宾馆大胆私拍 No.348'}
+2017-11-14 23:23:45 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.aitaotu.com/guonei/25912.html>
+{'img_url': 'https://img.aitaotu.cc:8089/Pics/2016/1014/09/02.jpg',
+ 'ref_url': 'https://www.aitaotu.com/guonei/25912.html',
+ 'title': '[RU1MM] 紧身黑丝超短裙美女宾馆大胆私拍 No.348'}
+2017-11-14 23:23:46 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.aitaotu.com/guonei/2132_2.html> (referer: https://www.aitaotu.com/guonei/2132.html)
+2017-11-14 23:23:47 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.aitaotu.com/tag/ruyixiezhen/6.html> (referer: https://www.aitaotu.com/tag/ruyixiezhen/5.html)
+2017-11-14 23:23:48 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://img.aitaotu.cc:8089/Pics/2015/0529/52/aitaotu_04.jpg> (referer: None)
+2017-11-14 23:23:48 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://img.aitaotu.cc:8089/Pics/2015/0529/52/aitaotu_04.jpg> referred in <None>
+2017-11-14 23:23:48 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.aitaotu.com/guonei/2208.html>
+{'img_url': 'https://img.aitaotu.cc:8089/Pics/2015/0529/52/aitaotu_04.jpg',
+ 'ref_url': 'https://www.aitaotu.com/guonei/2208.html',
+ 'title': '[RU1MM]No.285美女套图'}
+2017-11-14 23:23:49 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://img.aitaotu.cc:8089/Pics/2015/0528/53/aitaotu_01.jpg> (referer: None)
+2017-11-14 23:23:49 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://img.aitaotu.cc:8089/Pics/2015/0528/53/aitaotu_01.jpg> referred in <None>
+2017-11-14 23:23:49 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.aitaotu.com/guonei/2153.html>
+{'img_url': 'https://img.aitaotu.cc:8089/Pics/2015/0528/53/aitaotu_01.jpg',
+ 'ref_url': 'https://www.aitaotu.com/guonei/2153.html',
+ 'title': '[RU1MM]No.265套图超市'}
+2017-11-14 23:23:52 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://img.aitaotu.cc:8089/Pics/2015/0528/68/aitaotu_02.jpg> (referer: None)
+2017-11-14 23:23:52 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://img.aitaotu.cc:8089/Pics/2015/0528/68/aitaotu_02.jpg> referred in <None>
+2017-11-14 23:23:52 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.aitaotu.com/guonei/2188.html>
+{'img_url': 'https://img.aitaotu.cc:8089/Pics/2015/0528/68/aitaotu_02.jpg',
+ 'ref_url': 'https://www.aitaotu.com/guonei/2188.html',
+ 'title': '[RU1MM]No.280套图大全'}
+2017-11-14 23:23:53 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://img.aitaotu.cc:8089/Pics/2015/0528/68/aitaotu_04.jpg> (referer: None)
+2017-11-14 23:23:53 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://img.aitaotu.cc:8089/Pics/2015/0528/68/aitaotu_04.jpg> referred in <None>
+2017-11-14 23:23:53 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.aitaotu.com/guonei/2188.html>
+{'img_url': 'https://img.aitaotu.cc:8089/Pics/2015/0528/68/aitaotu_04.jpg',
+ 'ref_url': 'https://www.aitaotu.com/guonei/2188.html',
+ 'title': '[RU1MM]No.280套图大全'}
+2017-11-14 23:23:54 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.aitaotu.com/tag/ruyixiezhen/7.html> (referer: https://www.aitaotu.com/tag/ruyixiezhen/6.html)
+2017-11-14 23:23:54 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://img.aitaotu.cc:8089/Pics/2016/0822/16/01.jpg> (referer: None)
+2017-11-14 23:23:54 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://img.aitaotu.cc:8089/Pics/2016/0822/16/01.jpg> referred in <None>
+2017-11-14 23:23:55 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.aitaotu.com/guonei/24753.html>
+{'img_url': 'https://img.aitaotu.cc:8089/Pics/2016/0822/16/01.jpg',
+ 'ref_url': 'https://www.aitaotu.com/guonei/24753.html',
+ 'title': '[美腿宝贝] 正妹控妖艳美女陈雅漫黑色胶裤美乳高清写真 NO.012'}
+2017-11-14 23:23:56 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://img.aitaotu.cc:8089/Pics/2015/0528/68/aitaotu_01.jpg> (referer: None)
+2017-11-14 23:23:56 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://img.aitaotu.cc:8089/Pics/2015/0528/68/aitaotu_01.jpg> referred in <None>
+2017-11-14 23:23:56 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.aitaotu.com/guonei/2052.html> (referer: https://www.aitaotu.com/tag/ruyixiezhen/7.html)
+2017-11-14 23:23:56 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.aitaotu.com/guonei/2056.html> (referer: https://www.aitaotu.com/tag/ruyixiezhen/6.html)
+2017-11-14 23:23:56 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.aitaotu.com/guonei/2188.html>
+{'img_url': 'https://img.aitaotu.cc:8089/Pics/2015/0528/68/aitaotu_01.jpg',
+ 'ref_url': 'https://www.aitaotu.com/guonei/2188.html',
+ 'title': '[RU1MM]No.280套图大全'}
+2017-11-14 23:23:58 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://img.aitaotu.cc:8089/Pics/2015/0528/68/aitaotu_03.jpg> (referer: None)
+2017-11-14 23:23:58 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://img.aitaotu.cc:8089/Pics/2015/0528/68/aitaotu_03.jpg> referred in <None>
+2017-11-14 23:23:58 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.aitaotu.com/tag/ruyixiezhen/8.html> (referer: https://www.aitaotu.com/tag/ruyixiezhen/7.html)
+2017-11-14 23:23:58 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.aitaotu.com/guonei/2019.html> (referer: https://www.aitaotu.com/tag/ruyixiezhen/7.html)
+2017-11-14 23:23:58 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.aitaotu.com/guonei/2188.html>
+{'img_url': 'https://img.aitaotu.cc:8089/Pics/2015/0528/68/aitaotu_03.jpg',
+ 'ref_url': 'https://www.aitaotu.com/guonei/2188.html',
+ 'title': '[RU1MM]No.280套图大全'}
+2017-11-14 23:23:58 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.aitaotu.com/guonei/2020.html> (referer: https://www.aitaotu.com/tag/ruyixiezhen/7.html)
+2017-11-14 23:23:59 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://img.aitaotu.cc:8089/Pics/2015/0528/53/aitaotu_02.jpg> (referer: None)
+2017-11-14 23:23:59 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://img.aitaotu.cc:8089/Pics/2015/0528/53/aitaotu_02.jpg> referred in <None>
+2017-11-14 23:23:59 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.aitaotu.com/guonei/2153.html>
+{'img_url': 'https://img.aitaotu.cc:8089/Pics/2015/0528/53/aitaotu_02.jpg',
+ 'ref_url': 'https://www.aitaotu.com/guonei/2153.html',
+ 'title': '[RU1MM]No.265套图超市'}
+2017-11-14 23:24:01 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://img.aitaotu.cc:8089/Pics/2016/0822/16/02.jpg> (referer: None)
+2017-11-14 23:24:01 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://img.aitaotu.cc:8089/Pics/2016/0822/16/02.jpg> referred in <None>
+2017-11-14 23:24:01 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.aitaotu.com/guonei/24753.html>
+{'img_url': 'https://img.aitaotu.cc:8089/Pics/2016/0822/16/02.jpg',
+ 'ref_url': 'https://www.aitaotu.com/guonei/24753.html',
+ 'title': '[美腿宝贝] 正妹控妖艳美女陈雅漫黑色胶裤美乳高清写真 NO.012'}
+2017-11-14 23:24:05 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://img.aitaotu.cc:8089/Pics/2015/0528/53/aitaotu_03.jpg> (referer: None)
+2017-11-14 23:24:05 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://img.aitaotu.cc:8089/Pics/2015/0528/53/aitaotu_03.jpg> referred in <None>
+2017-11-14 23:24:06 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.aitaotu.com/guonei/2153.html>
+{'img_url': 'https://img.aitaotu.cc:8089/Pics/2015/0528/53/aitaotu_03.jpg',
+ 'ref_url': 'https://www.aitaotu.com/guonei/2153.html',
+ 'title': '[RU1MM]No.265套图超市'}
+2017-11-14 23:24:07 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://img.aitaotu.cc:8089/Pics/2015/0527/70/aitaotu_01.jpg> (referer: None)
+2017-11-14 23:24:07 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://img.aitaotu.cc:8089/Pics/2015/0527/70/aitaotu_01.jpg> referred in <None>
+2017-11-14 23:24:08 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.aitaotu.com/guonei/2132.html>
+{'img_url': 'https://img.aitaotu.cc:8089/Pics/2015/0527/70/aitaotu_01.jpg',
+ 'ref_url': 'https://www.aitaotu.com/guonei/2132.html',
+ 'title': '[RU1MM]No.262美女套图'}
+2017-11-14 23:24:08 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://img.aitaotu.cc:8089/Pics/2015/0527/70/aitaotu_03.jpg> (referer: None)
+2017-11-14 23:24:08 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://img.aitaotu.cc:8089/Pics/2015/0527/70/aitaotu_03.jpg> referred in <None>
+2017-11-14 23:24:09 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://img.aitaotu.cc:8089/Pics/2015/0527/70/aitaotu_02.jpg> (referer: None)
+2017-11-14 23:24:09 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://img.aitaotu.cc:8089/Pics/2015/0527/70/aitaotu_02.jpg> referred in <None>
+2017-11-14 23:24:09 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.aitaotu.com/guonei/2132.html>
+{'img_url': 'https://img.aitaotu.cc:8089/Pics/2015/0527/70/aitaotu_03.jpg',
+ 'ref_url': 'https://www.aitaotu.com/guonei/2132.html',
+ 'title': '[RU1MM]No.262美女套图'}
+2017-11-14 23:24:09 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.aitaotu.com/guonei/2132.html>
+{'img_url': 'https://img.aitaotu.cc:8089/Pics/2015/0527/70/aitaotu_02.jpg',
+ 'ref_url': 'https://www.aitaotu.com/guonei/2132.html',
+ 'title': '[RU1MM]No.262美女套图'}
+2017-11-14 23:24:10 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://img.aitaotu.cc:8089/Pics/2015/0527/70/aitaotu_05.jpg> (referer: None)
+2017-11-14 23:24:10 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://img.aitaotu.cc:8089/Pics/2015/0527/70/aitaotu_05.jpg> referred in <None>
+2017-11-14 23:24:10 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.aitaotu.com/guonei/2132_2.html>
+{'img_url': 'https://img.aitaotu.cc:8089/Pics/2015/0527/70/aitaotu_05.jpg',
+ 'ref_url': 'https://www.aitaotu.com/guonei/2132.html',
+ 'title': '[RU1MM]No.262美女套图'}
+2017-11-14 23:24:11 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://img.aitaotu.cc:8089/Pics/2015/0527/70/aitaotu_04.jpg> (referer: None)
+2017-11-14 23:24:11 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://img.aitaotu.cc:8089/Pics/2015/0527/70/aitaotu_04.jpg> referred in <None>
+2017-11-14 23:24:11 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.aitaotu.com/guonei/2132.html>
+{'img_url': 'https://img.aitaotu.cc:8089/Pics/2015/0527/70/aitaotu_04.jpg',
+ 'ref_url': 'https://www.aitaotu.com/guonei/2132.html',
+ 'title': '[RU1MM]No.262美女套图'}
+2017-11-14 23:24:12 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://img.aitaotu.cc:8089/Pics/2015/0526/54/aitaotu_01.jpg> (referer: None)
+2017-11-14 23:24:12 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://img.aitaotu.cc:8089/Pics/2015/0526/54/aitaotu_01.jpg> referred in <None>
+2017-11-14 23:24:13 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.aitaotu.com/guonei/2052.html>
+{'img_url': 'https://img.aitaotu.cc:8089/Pics/2015/0526/54/aitaotu_01.jpg',
+ 'ref_url': 'https://www.aitaotu.com/guonei/2052.html',
+ 'title': '[RU1MM]No.221套图大全'}
+2017-11-14 23:24:13 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://img.aitaotu.cc:8089/Pics/2015/0526/58/aitaotu_02.jpg> (referer: None)
+2017-11-14 23:24:13 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://img.aitaotu.cc:8089/Pics/2015/0526/58/aitaotu_02.jpg> referred in <None>
+2017-11-14 23:24:13 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.aitaotu.com/guonei/2056.html>
+{'img_url': 'https://img.aitaotu.cc:8089/Pics/2015/0526/58/aitaotu_02.jpg',
+ 'ref_url': 'https://www.aitaotu.com/guonei/2056.html',
+ 'title': '[RU1MM]No.225美女套图'}
+2017-11-14 23:24:13 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://img.aitaotu.cc:8089/Pics/2015/0526/54/aitaotu_02.jpg> (referer: None)
+2017-11-14 23:24:13 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://img.aitaotu.cc:8089/Pics/2015/0526/54/aitaotu_02.jpg> referred in <None>
+2017-11-14 23:24:13 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.aitaotu.com/guonei/2052.html>
+{'img_url': 'https://img.aitaotu.cc:8089/Pics/2015/0526/54/aitaotu_02.jpg',
+ 'ref_url': 'https://www.aitaotu.com/guonei/2052.html',
+ 'title': '[RU1MM]No.221套图大全'}
+2017-11-14 23:24:15 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://img.aitaotu.cc:8089/Pics/2015/0527/70/aitaotu_06.jpg> (referer: None)
+2017-11-14 23:24:15 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://img.aitaotu.cc:8089/Pics/2015/0527/70/aitaotu_06.jpg> referred in <None>
+2017-11-14 23:24:15 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://img.aitaotu.cc:8089/Pics/2015/0526/58/aitaotu_03.jpg> (referer: None)
+2017-11-14 23:24:15 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://img.aitaotu.cc:8089/Pics/2015/0526/58/aitaotu_03.jpg> referred in <None>
+2017-11-14 23:24:15 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://img.aitaotu.cc:8089/Pics/2015/0526/58/aitaotu_01.jpg> (referer: None)
+2017-11-14 23:24:15 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://img.aitaotu.cc:8089/Pics/2015/0526/58/aitaotu_01.jpg> referred in <None>
+2017-11-14 23:24:16 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.aitaotu.com/guonei/2132_2.html>
+{'img_url': 'https://img.aitaotu.cc:8089/Pics/2015/0527/70/aitaotu_06.jpg',
+ 'ref_url': 'https://www.aitaotu.com/guonei/2132.html',
+ 'title': '[RU1MM]No.262美女套图'}
+2017-11-14 23:24:16 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.aitaotu.com/guonei/2056.html>
+{'img_url': 'https://img.aitaotu.cc:8089/Pics/2015/0526/58/aitaotu_03.jpg',
+ 'ref_url': 'https://www.aitaotu.com/guonei/2056.html',
+ 'title': '[RU1MM]No.225美女套图'}
+2017-11-14 23:24:16 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://img.aitaotu.cc:8089/Pics/2015/0526/54/aitaotu_03.jpg> (referer: None)
+2017-11-14 23:24:16 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://img.aitaotu.cc:8089/Pics/2015/0526/54/aitaotu_03.jpg> referred in <None>
+2017-11-14 23:24:16 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.aitaotu.com/guonei/2056.html>
+{'img_url': 'https://img.aitaotu.cc:8089/Pics/2015/0526/58/aitaotu_01.jpg',
+ 'ref_url': 'https://www.aitaotu.com/guonei/2056.html',
+ 'title': '[RU1MM]No.225美女套图'}
+2017-11-14 23:24:16 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.aitaotu.com/guonei/2052.html>
+{'img_url': 'https://img.aitaotu.cc:8089/Pics/2015/0526/54/aitaotu_03.jpg',
+ 'ref_url': 'https://www.aitaotu.com/guonei/2052.html',
+ 'title': '[RU1MM]No.221套图大全'}
+2017-11-14 23:24:16 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.aitaotu.com/tag/ruyixiezhen/9.html> (referer: https://www.aitaotu.com/tag/ruyixiezhen/8.html)
+2017-11-14 23:24:18 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.aitaotu.com/guonei/1968.html> (referer: https://www.aitaotu.com/tag/ruyixiezhen/8.html)
+2017-11-14 23:24:18 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://img.aitaotu.cc:8089/Pics/2015/0525/59/aitaotu_03.jpg> (referer: None)
+2017-11-14 23:24:18 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://img.aitaotu.cc:8089/Pics/2015/0525/59/aitaotu_03.jpg> referred in <None>
+2017-11-14 23:24:18 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.aitaotu.com/guonei/1964.html> (referer: https://www.aitaotu.com/tag/ruyixiezhen/8.html)
+2017-11-14 23:24:18 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.aitaotu.com/guonei/1965.html> (referer: https://www.aitaotu.com/tag/ruyixiezhen/8.html)
+2017-11-14 23:24:19 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.aitaotu.com/guonei/2019.html>
+{'img_url': 'https://img.aitaotu.cc:8089/Pics/2015/0525/59/aitaotu_03.jpg',
+ 'ref_url': 'https://www.aitaotu.com/guonei/2019.html',
+ 'title': '[RU1MM]No.205套图超市'}
+2017-11-14 23:24:20 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.aitaotu.com/guonei/1930.html> (referer: https://www.aitaotu.com/tag/ruyixiezhen/9.html)
+2017-11-14 23:24:20 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://img.aitaotu.cc:8089/Pics/2015/0526/58/aitaotu_04.jpg> (referer: None)
+2017-11-14 23:24:20 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://img.aitaotu.cc:8089/Pics/2015/0526/58/aitaotu_04.jpg> referred in <None>
+2017-11-14 23:24:20 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://img.aitaotu.cc:8089/Pics/2015/0528/53/aitaotu_04.jpg> (referer: None)
+2017-11-14 23:24:20 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://img.aitaotu.cc:8089/Pics/2015/0528/53/aitaotu_04.jpg> referred in <None>
+2017-11-14 23:24:22 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.aitaotu.com/guonei/2056.html>
+{'img_url': 'https://img.aitaotu.cc:8089/Pics/2015/0526/58/aitaotu_04.jpg',
+ 'ref_url': 'https://www.aitaotu.com/guonei/2056.html',
+ 'title': '[RU1MM]No.225美女套图'}
+2017-11-14 23:24:22 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://img.aitaotu.cc:8089/Pics/2015/0525/59/aitaotu_01.jpg> (referer: None)
+2017-11-14 23:24:22 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://img.aitaotu.cc:8089/Pics/2015/0525/59/aitaotu_01.jpg> referred in <None>
+2017-11-14 23:24:22 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.aitaotu.com/guonei/2153.html>
+{'img_url': 'https://img.aitaotu.cc:8089/Pics/2015/0528/53/aitaotu_04.jpg',
+ 'ref_url': 'https://www.aitaotu.com/guonei/2153.html',
+ 'title': '[RU1MM]No.265套图超市'}
+2017-11-14 23:24:22 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.aitaotu.com/guonei/1927.html> (referer: https://www.aitaotu.com/tag/ruyixiezhen/9.html)
+2017-11-14 23:24:22 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.aitaotu.com/guonei/1932.html> (referer: https://www.aitaotu.com/tag/ruyixiezhen/9.html)
+2017-11-14 23:24:22 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.aitaotu.com/guonei/2019.html>
+{'img_url': 'https://img.aitaotu.cc:8089/Pics/2015/0525/59/aitaotu_01.jpg',
+ 'ref_url': 'https://www.aitaotu.com/guonei/2019.html',
+ 'title': '[RU1MM]No.205套图超市'}
+2017-11-14 23:24:23 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://img.aitaotu.cc:8089/Pics/2015/0526/54/aitaotu_04.jpg> (referer: None)
+2017-11-14 23:24:23 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://img.aitaotu.cc:8089/Pics/2015/0526/54/aitaotu_04.jpg> referred in <None>
+2017-11-14 23:24:23 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.aitaotu.com/guonei/2052.html>
+{'img_url': 'https://img.aitaotu.cc:8089/Pics/2015/0526/54/aitaotu_04.jpg',
+ 'ref_url': 'https://www.aitaotu.com/guonei/2052.html',
+ 'title': '[RU1MM]No.221套图大全'}
+2017-11-14 23:24:24 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://img.aitaotu.cc:8089/Pics/2015/0525/60/aitaotu_03.jpg> (referer: None)
+2017-11-14 23:24:24 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://img.aitaotu.cc:8089/Pics/2015/0525/60/aitaotu_03.jpg> referred in <None>
+2017-11-14 23:24:24 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.aitaotu.com/guonei/2020.html>
+{'img_url': 'https://img.aitaotu.cc:8089/Pics/2015/0525/60/aitaotu_03.jpg',
+ 'ref_url': 'https://www.aitaotu.com/guonei/2020.html',
+ 'title': '[RU1MM]No.206精品套图'}
+2017-11-14 23:24:25 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://img.aitaotu.cc:8089/Pics/2015/0525/59/aitaotu_02.jpg> (referer: None)
+2017-11-14 23:24:25 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://img.aitaotu.cc:8089/Pics/2015/0525/59/aitaotu_02.jpg> referred in <None>
+2017-11-14 23:24:26 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://img.aitaotu.cc:8089/Pics/2015/0525/60/aitaotu_02.jpg> (referer: None)
+2017-11-14 23:24:26 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://img.aitaotu.cc:8089/Pics/2015/0525/60/aitaotu_02.jpg> referred in <None>
+2017-11-14 23:24:26 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.aitaotu.com/guonei/2019.html>
+{'img_url': 'https://img.aitaotu.cc:8089/Pics/2015/0525/59/aitaotu_02.jpg',
+ 'ref_url': 'https://www.aitaotu.com/guonei/2019.html',
+ 'title': '[RU1MM]No.205套图超市'}
+2017-11-14 23:24:27 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.aitaotu.com/guonei/2020.html>
+{'img_url': 'https://img.aitaotu.cc:8089/Pics/2015/0525/60/aitaotu_02.jpg',
+ 'ref_url': 'https://www.aitaotu.com/guonei/2020.html',
+ 'title': '[RU1MM]No.206精品套图'}
+2017-11-14 23:24:27 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.aitaotu.com/guonei/1934.html> (referer: https://www.aitaotu.com/tag/ruyixiezhen/9.html)
+2017-11-14 23:24:27 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://img.aitaotu.cc:8089/Pics/2015/0525/59/aitaotu_04.jpg> (referer: None)
+2017-11-14 23:24:27 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://img.aitaotu.cc:8089/Pics/2015/0525/59/aitaotu_04.jpg> referred in <None>
+2017-11-14 23:24:28 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.aitaotu.com/guonei/2019.html>
+{'img_url': 'https://img.aitaotu.cc:8089/Pics/2015/0525/59/aitaotu_04.jpg',
+ 'ref_url': 'https://www.aitaotu.com/guonei/2019.html',
+ 'title': '[RU1MM]No.205套图超市'}
+2017-11-14 23:24:31 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://img.aitaotu.cc:8089/Pics/2015/0525/60/aitaotu_04.jpg> (referer: None)
+2017-11-14 23:24:31 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://img.aitaotu.cc:8089/Pics/2015/0525/60/aitaotu_04.jpg> referred in <None>
+2017-11-14 23:24:31 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.aitaotu.com/guonei/2020.html>
+{'img_url': 'https://img.aitaotu.cc:8089/Pics/2015/0525/60/aitaotu_04.jpg',
+ 'ref_url': 'https://www.aitaotu.com/guonei/2020.html',
+ 'title': '[RU1MM]No.206精品套图'}
+2017-11-14 23:24:32 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://img.aitaotu.cc:8089/Pics/2015/0523/59/aitaotu_02.jpg> (referer: None)
+2017-11-14 23:24:32 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://img.aitaotu.cc:8089/Pics/2015/0523/59/aitaotu_02.jpg> referred in <None>
+2017-11-14 23:24:33 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://img.aitaotu.cc:8089/Pics/2015/0527/70/aitaotu_08.jpg> (referer: None)
+2017-11-14 23:24:33 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://img.aitaotu.cc:8089/Pics/2015/0527/70/aitaotu_08.jpg> referred in <None>
+2017-11-14 23:24:34 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.aitaotu.com/guonei/1968.html>
+{'img_url': 'https://img.aitaotu.cc:8089/Pics/2015/0523/59/aitaotu_02.jpg',
+ 'ref_url': 'https://www.aitaotu.com/guonei/1968.html',
+ 'title': '[RU1MM]No.187套图超市'}
+2017-11-14 23:24:34 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.aitaotu.com/guonei/2132_2.html>
+{'img_url': 'https://img.aitaotu.cc:8089/Pics/2015/0527/70/aitaotu_08.jpg',
+ 'ref_url': 'https://www.aitaotu.com/guonei/2132.html',
+ 'title': '[RU1MM]No.262美女套图'}
+2017-11-14 23:24:35 [scrapy.extensions.logstats] INFO: Crawled 133 pages (at 59 pages/min), scraped 76 items (at 42 items/min)
+2017-11-14 23:24:37 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://img.aitaotu.cc:8089/Pics/2015/0523/57/aitaotu_01.jpg> (referer: None)
+2017-11-14 23:24:37 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://img.aitaotu.cc:8089/Pics/2015/0523/57/aitaotu_01.jpg> referred in <None>
+2017-11-14 23:24:38 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.aitaotu.com/guonei/1964.html>
+{'img_url': 'https://img.aitaotu.cc:8089/Pics/2015/0523/57/aitaotu_01.jpg',
+ 'ref_url': 'https://www.aitaotu.com/guonei/1964.html',
+ 'title': '[RU1MM]No.185精品套图'}
+2017-11-14 23:24:40 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://img.aitaotu.cc:8089/Pics/2015/0523/57/aitaotu_02.jpg> (referer: None)
+2017-11-14 23:24:40 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://img.aitaotu.cc:8089/Pics/2015/0523/57/aitaotu_02.jpg> referred in <None>
+2017-11-14 23:24:40 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://img.aitaotu.cc:8089/Pics/2015/0523/58/aitaotu_01.jpg> (referer: None)
+2017-11-14 23:24:40 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://img.aitaotu.cc:8089/Pics/2015/0523/58/aitaotu_01.jpg> referred in <None>
+2017-11-14 23:24:43 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.aitaotu.com/guonei/1964.html>
+{'img_url': 'https://img.aitaotu.cc:8089/Pics/2015/0523/57/aitaotu_02.jpg',
+ 'ref_url': 'https://www.aitaotu.com/guonei/1964.html',
+ 'title': '[RU1MM]No.185精品套图'}
+2017-11-14 23:24:43 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.aitaotu.com/guonei/1965.html>
+{'img_url': 'https://img.aitaotu.cc:8089/Pics/2015/0523/58/aitaotu_01.jpg',
+ 'ref_url': 'https://www.aitaotu.com/guonei/1965.html',
+ 'title': '[RU1MM]No.186套图大全'}
+2017-11-14 23:24:47 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://img.aitaotu.cc:8089/Pics/2015/0523/59/aitaotu_03.jpg> (referer: None)
+2017-11-14 23:24:47 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://img.aitaotu.cc:8089/Pics/2015/0523/59/aitaotu_03.jpg> referred in <None>
+2017-11-14 23:24:48 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://img.aitaotu.cc:8089/Pics/2015/0523/59/aitaotu_01.jpg> (referer: None)
+2017-11-14 23:24:48 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://img.aitaotu.cc:8089/Pics/2015/0523/59/aitaotu_01.jpg> referred in <None>
+2017-11-14 23:24:48 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.aitaotu.com/guonei/1968.html>
+{'img_url': 'https://img.aitaotu.cc:8089/Pics/2015/0523/59/aitaotu_03.jpg',
+ 'ref_url': 'https://www.aitaotu.com/guonei/1968.html',
+ 'title': '[RU1MM]No.187套图超市'}
+2017-11-14 23:24:48 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.aitaotu.com/guonei/1968.html>
+{'img_url': 'https://img.aitaotu.cc:8089/Pics/2015/0523/59/aitaotu_01.jpg',
+ 'ref_url': 'https://www.aitaotu.com/guonei/1968.html',
+ 'title': '[RU1MM]No.187套图超市'}
+2017-11-14 23:24:51 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://img.aitaotu.cc:8089/Pics/2015/0523/59/aitaotu_04.jpg> (referer: None)
+2017-11-14 23:24:51 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://img.aitaotu.cc:8089/Pics/2015/0523/59/aitaotu_04.jpg> referred in <None>
+2017-11-14 23:24:52 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.aitaotu.com/guonei/1968.html>
+{'img_url': 'https://img.aitaotu.cc:8089/Pics/2015/0523/59/aitaotu_04.jpg',
+ 'ref_url': 'https://www.aitaotu.com/guonei/1968.html',
+ 'title': '[RU1MM]No.187套图超市'}
+2017-11-14 23:24:55 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://img.aitaotu.cc:8089/Pics/2015/0523/58/aitaotu_04.jpg> (referer: None)
+2017-11-14 23:24:55 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://img.aitaotu.cc:8089/Pics/2015/0523/58/aitaotu_04.jpg> referred in <None>
+2017-11-14 23:24:56 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.aitaotu.com/guonei/1965.html>
+{'img_url': 'https://img.aitaotu.cc:8089/Pics/2015/0523/58/aitaotu_04.jpg',
+ 'ref_url': 'https://www.aitaotu.com/guonei/1965.html',
+ 'title': '[RU1MM]No.186套图大全'}
+2017-11-14 23:24:56 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://img.aitaotu.cc:8089/Pics/2015/0523/57/aitaotu_03.jpg> (referer: None)
+2017-11-14 23:24:56 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://img.aitaotu.cc:8089/Pics/2015/0523/57/aitaotu_03.jpg> referred in <None>
+2017-11-14 23:24:58 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://img.aitaotu.cc:8089/Pics/2015/0523/58/aitaotu_02.jpg> (referer: None)
+2017-11-14 23:24:58 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://img.aitaotu.cc:8089/Pics/2015/0523/58/aitaotu_02.jpg> referred in <None>
+2017-11-14 23:25:00 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://img.aitaotu.cc:8089/Pics/2015/0523/58/aitaotu_03.jpg> (referer: None)
+2017-11-14 23:25:00 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://img.aitaotu.cc:8089/Pics/2015/0523/58/aitaotu_03.jpg> referred in <None>
+2017-11-14 23:25:01 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://img.aitaotu.cc:8089/Pics/2015/0523/57/aitaotu_04.jpg> (referer: None)
+2017-11-14 23:25:01 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://img.aitaotu.cc:8089/Pics/2015/0523/57/aitaotu_04.jpg> referred in <None>
+2017-11-14 23:25:02 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://img.aitaotu.cc:8089/Pics/2015/0522/60/aitaotu_01.jpg> (referer: None)
+2017-11-14 23:25:02 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://img.aitaotu.cc:8089/Pics/2015/0522/60/aitaotu_01.jpg> referred in <None>
+2017-11-14 23:25:02 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.aitaotu.com/guonei/1964.html>
+{'img_url': 'https://img.aitaotu.cc:8089/Pics/2015/0523/57/aitaotu_03.jpg',
+ 'ref_url': 'https://www.aitaotu.com/guonei/1964.html',
+ 'title': '[RU1MM]No.185精品套图'}
+2017-11-14 23:25:02 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.aitaotu.com/guonei/1965.html>
+{'img_url': 'https://img.aitaotu.cc:8089/Pics/2015/0523/58/aitaotu_02.jpg',
+ 'ref_url': 'https://www.aitaotu.com/guonei/1965.html',
+ 'title': '[RU1MM]No.186套图大全'}
+2017-11-14 23:25:02 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.aitaotu.com/guonei/1965.html>
+{'img_url': 'https://img.aitaotu.cc:8089/Pics/2015/0523/58/aitaotu_03.jpg',
+ 'ref_url': 'https://www.aitaotu.com/guonei/1965.html',
+ 'title': '[RU1MM]No.186套图大全'}
+2017-11-14 23:25:02 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.aitaotu.com/guonei/1964.html>
+{'img_url': 'https://img.aitaotu.cc:8089/Pics/2015/0523/57/aitaotu_04.jpg',
+ 'ref_url': 'https://www.aitaotu.com/guonei/1964.html',
+ 'title': '[RU1MM]No.185精品套图'}
+2017-11-14 23:25:03 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.aitaotu.com/guonei/1930.html>
+{'img_url': 'https://img.aitaotu.cc:8089/Pics/2015/0522/60/aitaotu_01.jpg',
+ 'ref_url': 'https://www.aitaotu.com/guonei/1930.html',
+ 'title': '[RU1MM]No.166精品套图'}
+2017-11-14 23:25:04 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://img.aitaotu.cc:8089/Pics/2015/0522/60/aitaotu_02.jpg> (referer: None)
+2017-11-14 23:25:04 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://img.aitaotu.cc:8089/Pics/2015/0522/60/aitaotu_02.jpg> referred in <None>
+2017-11-14 23:25:04 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.aitaotu.com/guonei/1930.html>
+{'img_url': 'https://img.aitaotu.cc:8089/Pics/2015/0522/60/aitaotu_02.jpg',
+ 'ref_url': 'https://www.aitaotu.com/guonei/1930.html',
+ 'title': '[RU1MM]No.166精品套图'}
+2017-11-14 23:25:08 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://img.aitaotu.cc:8089/Pics/2015/0522/59/aitaotu_01.jpg> (referer: None)
+2017-11-14 23:25:08 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://img.aitaotu.cc:8089/Pics/2015/0522/59/aitaotu_01.jpg> referred in <None>
+2017-11-14 23:25:10 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://img.aitaotu.cc:8089/Pics/2015/0522/59/aitaotu_02.jpg> (referer: None)
+2017-11-14 23:25:10 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://img.aitaotu.cc:8089/Pics/2015/0522/59/aitaotu_02.jpg> referred in <None>
+2017-11-14 23:25:12 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.aitaotu.com/guonei/1927.html>
+{'img_url': 'https://img.aitaotu.cc:8089/Pics/2015/0522/59/aitaotu_01.jpg',
+ 'ref_url': 'https://www.aitaotu.com/guonei/1927.html',
+ 'title': '[RU1MM]No.165美女套图'}
+2017-11-14 23:25:12 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.aitaotu.com/guonei/1934_2.html> (referer: https://www.aitaotu.com/guonei/1934.html)
+2017-11-14 23:25:12 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.aitaotu.com/guonei/1927.html>
+{'img_url': 'https://img.aitaotu.cc:8089/Pics/2015/0522/59/aitaotu_02.jpg',
+ 'ref_url': 'https://www.aitaotu.com/guonei/1927.html',
+ 'title': '[RU1MM]No.165美女套图'}
+2017-11-14 23:25:13 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.aitaotu.com/guonei/1932_2.html> (referer: https://www.aitaotu.com/guonei/1932.html)
+2017-11-14 23:25:13 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://img.aitaotu.cc:8089/Pics/2015/0525/60/aitaotu_01.jpg> (referer: None)
+2017-11-14 23:25:13 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://img.aitaotu.cc:8089/Pics/2015/0525/60/aitaotu_01.jpg> referred in <None>
+2017-11-14 23:25:13 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.aitaotu.com/guonei/1927_2.html> (referer: https://www.aitaotu.com/guonei/1927.html)
+2017-11-14 23:25:13 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.aitaotu.com/guonei/2020.html>
+{'img_url': 'https://img.aitaotu.cc:8089/Pics/2015/0525/60/aitaotu_01.jpg',
+ 'ref_url': 'https://www.aitaotu.com/guonei/2020.html',
+ 'title': '[RU1MM]No.206精品套图'}
+2017-11-14 23:25:16 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://img.aitaotu.cc:8089/Pics/2015/0522/59/aitaotu_03.jpg> (referer: None)
+2017-11-14 23:25:16 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://img.aitaotu.cc:8089/Pics/2015/0522/59/aitaotu_03.jpg> referred in <None>
+2017-11-14 23:25:19 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://img.aitaotu.cc:8089/Pics/2015/0522/61/aitaotu_01.jpg> (referer: None)
+2017-11-14 23:25:19 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://img.aitaotu.cc:8089/Pics/2015/0522/61/aitaotu_01.jpg> referred in <None>
+2017-11-14 23:25:21 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.aitaotu.com/guonei/1927.html>
+{'img_url': 'https://img.aitaotu.cc:8089/Pics/2015/0522/59/aitaotu_03.jpg',
+ 'ref_url': 'https://www.aitaotu.com/guonei/1927.html',
+ 'title': '[RU1MM]No.165美女套图'}
+2017-11-14 23:25:21 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://img.aitaotu.cc:8089/Pics/2015/0522/61/aitaotu_03.jpg> (referer: None)
+2017-11-14 23:25:21 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://img.aitaotu.cc:8089/Pics/2015/0522/61/aitaotu_03.jpg> referred in <None>
+2017-11-14 23:25:23 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.aitaotu.com/guonei/1932.html>
+{'img_url': 'https://img.aitaotu.cc:8089/Pics/2015/0522/61/aitaotu_01.jpg',
+ 'ref_url': 'https://www.aitaotu.com/guonei/1932.html',
+ 'title': '[RU1MM]No.167套图超市'}
+2017-11-14 23:25:23 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.aitaotu.com/guonei/1932.html>
+{'img_url': 'https://img.aitaotu.cc:8089/Pics/2015/0522/61/aitaotu_03.jpg',
+ 'ref_url': 'https://www.aitaotu.com/guonei/1932.html',
+ 'title': '[RU1MM]No.167套图超市'}
+2017-11-14 23:25:24 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://img.aitaotu.cc:8089/Pics/2015/0522/59/aitaotu_04.jpg> (referer: None)
+2017-11-14 23:25:24 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://img.aitaotu.cc:8089/Pics/2015/0522/59/aitaotu_04.jpg> referred in <None>
+2017-11-14 23:25:29 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://img.aitaotu.cc:8089/Pics/2015/0522/60/aitaotu_03.jpg> (referer: None)
+2017-11-14 23:25:29 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://img.aitaotu.cc:8089/Pics/2015/0522/60/aitaotu_03.jpg> referred in <None>
+2017-11-14 23:25:30 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://img.aitaotu.cc:8089/Pics/2015/0522/61/aitaotu_04.jpg> (referer: None)
+2017-11-14 23:25:30 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://img.aitaotu.cc:8089/Pics/2015/0522/61/aitaotu_04.jpg> referred in <None>
+2017-11-14 23:25:33 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.aitaotu.com/guonei/1927.html>
+{'img_url': 'https://img.aitaotu.cc:8089/Pics/2015/0522/59/aitaotu_04.jpg',
+ 'ref_url': 'https://www.aitaotu.com/guonei/1927.html',
+ 'title': '[RU1MM]No.165美女套图'}
+2017-11-14 23:25:33 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.aitaotu.com/guonei/1930.html>
+{'img_url': 'https://img.aitaotu.cc:8089/Pics/2015/0522/60/aitaotu_03.jpg',
+ 'ref_url': 'https://www.aitaotu.com/guonei/1930.html',
+ 'title': '[RU1MM]No.166精品套图'}
+2017-11-14 23:25:33 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://img.aitaotu.cc:8089/Pics/2015/0522/63/aitaotu_02.jpg> (referer: None)
+2017-11-14 23:25:33 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://img.aitaotu.cc:8089/Pics/2015/0522/63/aitaotu_02.jpg> referred in <None>
+2017-11-14 23:25:34 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://img.aitaotu.cc:8089/Pics/2015/0522/63/aitaotu_01.jpg> (referer: None)
+2017-11-14 23:25:34 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://img.aitaotu.cc:8089/Pics/2015/0522/63/aitaotu_01.jpg> referred in <None>
+2017-11-14 23:25:34 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.aitaotu.com/guonei/1932.html>
+{'img_url': 'https://img.aitaotu.cc:8089/Pics/2015/0522/61/aitaotu_04.jpg',
+ 'ref_url': 'https://www.aitaotu.com/guonei/1932.html',
+ 'title': '[RU1MM]No.167套图超市'}
+2017-11-14 23:25:34 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.aitaotu.com/guonei/1934.html>
+{'img_url': 'https://img.aitaotu.cc:8089/Pics/2015/0522/63/aitaotu_02.jpg',
+ 'ref_url': 'https://www.aitaotu.com/guonei/1934.html',
+ 'title': '[RU1MM]No.168美女套图'}
+2017-11-14 23:25:34 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.aitaotu.com/guonei/1934.html>
+{'img_url': 'https://img.aitaotu.cc:8089/Pics/2015/0522/63/aitaotu_01.jpg',
+ 'ref_url': 'https://www.aitaotu.com/guonei/1934.html',
+ 'title': '[RU1MM]No.168美女套图'}
+2017-11-14 23:25:35 [scrapy.extensions.logstats] INFO: Crawled 160 pages (at 27 pages/min), scraped 100 items (at 24 items/min)
+2017-11-14 23:25:36 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://img.aitaotu.cc:8089/Pics/2015/0522/60/aitaotu_04.jpg> (referer: None)
+2017-11-14 23:25:36 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://img.aitaotu.cc:8089/Pics/2015/0522/60/aitaotu_04.jpg> referred in <None>
+2017-11-14 23:25:38 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://img.aitaotu.cc:8089/Pics/2015/0522/63/aitaotu_06.jpg> (referer: None)
+2017-11-14 23:25:38 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://img.aitaotu.cc:8089/Pics/2015/0522/63/aitaotu_06.jpg> referred in <None>
+2017-11-14 23:25:39 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.aitaotu.com/guonei/1930.html>
+{'img_url': 'https://img.aitaotu.cc:8089/Pics/2015/0522/60/aitaotu_04.jpg',
+ 'ref_url': 'https://www.aitaotu.com/guonei/1930.html',
+ 'title': '[RU1MM]No.166精品套图'}
+2017-11-14 23:25:39 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.aitaotu.com/guonei/1934_2.html>
+{'img_url': 'https://img.aitaotu.cc:8089/Pics/2015/0522/63/aitaotu_06.jpg',
+ 'ref_url': 'https://www.aitaotu.com/guonei/1934.html',
+ 'title': '[RU1MM]No.168美女套图'}
+2017-11-14 23:25:40 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.aitaotu.com/guonei/1927_3.html> (referer: https://www.aitaotu.com/guonei/1927_2.html)
+2017-11-14 23:25:40 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://img.aitaotu.cc:8089/Pics/2015/0522/63/aitaotu_04.jpg> (referer: None)
+2017-11-14 23:25:40 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://img.aitaotu.cc:8089/Pics/2015/0522/63/aitaotu_04.jpg> referred in <None>
+2017-11-14 23:25:41 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.aitaotu.com/guonei/1934.html>
+{'img_url': 'https://img.aitaotu.cc:8089/Pics/2015/0522/63/aitaotu_04.jpg',
+ 'ref_url': 'https://www.aitaotu.com/guonei/1934.html',
+ 'title': '[RU1MM]No.168美女套图'}
+2017-11-14 23:25:41 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://img.aitaotu.cc:8089/Pics/2015/0522/61/aitaotu_02.jpg> (referer: None)
+2017-11-14 23:25:41 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://img.aitaotu.cc:8089/Pics/2015/0522/61/aitaotu_02.jpg> referred in <None>
+2017-11-14 23:25:41 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.aitaotu.com/guonei/1932.html>
+{'img_url': 'https://img.aitaotu.cc:8089/Pics/2015/0522/61/aitaotu_02.jpg',
+ 'ref_url': 'https://www.aitaotu.com/guonei/1932.html',
+ 'title': '[RU1MM]No.167套图超市'}
+2017-11-14 23:25:41 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.aitaotu.com/guonei/1932_3.html> (referer: https://www.aitaotu.com/guonei/1932_2.html)
+2017-11-14 23:25:43 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://img.aitaotu.cc:8089/Pics/2015/0522/63/aitaotu_05.jpg> (referer: None)
+2017-11-14 23:25:43 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://img.aitaotu.cc:8089/Pics/2015/0522/63/aitaotu_05.jpg> referred in <None>
+2017-11-14 23:25:44 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://img.aitaotu.cc:8089/Pics/2015/0522/63/aitaotu_03.jpg> (referer: None)
+2017-11-14 23:25:44 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://img.aitaotu.cc:8089/Pics/2015/0522/63/aitaotu_03.jpg> referred in <None>
+2017-11-14 23:25:44 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.aitaotu.com/guonei/1934_2.html>
+{'img_url': 'https://img.aitaotu.cc:8089/Pics/2015/0522/63/aitaotu_05.jpg',
+ 'ref_url': 'https://www.aitaotu.com/guonei/1934.html',
+ 'title': '[RU1MM]No.168美女套图'}
+2017-11-14 23:25:44 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.aitaotu.com/guonei/1934.html>
+{'img_url': 'https://img.aitaotu.cc:8089/Pics/2015/0522/63/aitaotu_03.jpg',
+ 'ref_url': 'https://www.aitaotu.com/guonei/1934.html',
+ 'title': '[RU1MM]No.168美女套图'}
+2017-11-14 23:25:45 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://img.aitaotu.cc:8089/Pics/2015/0522/61/aitaotu_05.jpg> (referer: None)
+2017-11-14 23:25:45 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://img.aitaotu.cc:8089/Pics/2015/0522/61/aitaotu_05.jpg> referred in <None>
+2017-11-14 23:25:46 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.aitaotu.com/guonei/1932_2.html>
+{'img_url': 'https://img.aitaotu.cc:8089/Pics/2015/0522/61/aitaotu_05.jpg',
+ 'ref_url': 'https://www.aitaotu.com/guonei/1932.html',
+ 'title': '[RU1MM]No.167套图超市'}
+2017-11-14 23:25:50 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://img.aitaotu.cc:8089/Pics/2015/0522/59/aitaotu_05.jpg> (referer: None)
+2017-11-14 23:25:50 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://img.aitaotu.cc:8089/Pics/2015/0522/59/aitaotu_05.jpg> referred in <None>
+2017-11-14 23:25:50 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.aitaotu.com/guonei/1927_2.html>
+{'img_url': 'https://img.aitaotu.cc:8089/Pics/2015/0522/59/aitaotu_05.jpg',
+ 'ref_url': 'https://www.aitaotu.com/guonei/1927.html',
+ 'title': '[RU1MM]No.165美女套图'}
+2017-11-14 23:25:52 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://img.aitaotu.cc:8089/Pics/2015/0522/59/aitaotu_06.jpg> (referer: None)
+2017-11-14 23:25:52 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://img.aitaotu.cc:8089/Pics/2015/0522/59/aitaotu_06.jpg> referred in <None>
+2017-11-14 23:25:52 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.aitaotu.com/guonei/1927_2.html>
+{'img_url': 'https://img.aitaotu.cc:8089/Pics/2015/0522/59/aitaotu_06.jpg',
+ 'ref_url': 'https://www.aitaotu.com/guonei/1927.html',
+ 'title': '[RU1MM]No.165美女套图'}
+2017-11-14 23:25:52 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://img.aitaotu.cc:8089/Pics/2015/0522/63/aitaotu_08.jpg> (referer: None)
+2017-11-14 23:25:52 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://img.aitaotu.cc:8089/Pics/2015/0522/63/aitaotu_08.jpg> referred in <None>
+2017-11-14 23:25:52 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://img.aitaotu.cc:8089/Pics/2015/0522/61/aitaotu_06.jpg> (referer: None)
+2017-11-14 23:25:52 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://img.aitaotu.cc:8089/Pics/2015/0522/61/aitaotu_06.jpg> referred in <None>
+2017-11-14 23:25:52 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.aitaotu.com/guonei/1934_2.html>
+{'img_url': 'https://img.aitaotu.cc:8089/Pics/2015/0522/63/aitaotu_08.jpg',
+ 'ref_url': 'https://www.aitaotu.com/guonei/1934.html',
+ 'title': '[RU1MM]No.168美女套图'}
+2017-11-14 23:25:53 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.aitaotu.com/guonei/1932_2.html>
+{'img_url': 'https://img.aitaotu.cc:8089/Pics/2015/0522/61/aitaotu_06.jpg',
+ 'ref_url': 'https://www.aitaotu.com/guonei/1932.html',
+ 'title': '[RU1MM]No.167套图超市'}
+2017-11-14 23:25:53 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.aitaotu.com/guonei/1927_4.html> (referer: https://www.aitaotu.com/guonei/1927_3.html)
+2017-11-14 23:25:53 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.aitaotu.com/guonei/1932_4.html> (referer: https://www.aitaotu.com/guonei/1932_3.html)
+2017-11-14 23:25:53 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.aitaotu.com/guonei/1934_3.html> (referer: https://www.aitaotu.com/guonei/1934_2.html)
+2017-11-14 23:25:54 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://img.aitaotu.cc:8089/Pics/2015/0522/61/aitaotu_08.jpg> (referer: None)
+2017-11-14 23:25:54 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://img.aitaotu.cc:8089/Pics/2015/0522/61/aitaotu_08.jpg> referred in <None>
+2017-11-14 23:25:54 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.aitaotu.com/guonei/1932_2.html>
+{'img_url': 'https://img.aitaotu.cc:8089/Pics/2015/0522/61/aitaotu_08.jpg',
+ 'ref_url': 'https://www.aitaotu.com/guonei/1932.html',
+ 'title': '[RU1MM]No.167套图超市'}
+2017-11-14 23:25:55 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://img.aitaotu.cc:8089/Pics/2015/0522/59/aitaotu_10.jpg> (referer: None)
+2017-11-14 23:25:55 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://img.aitaotu.cc:8089/Pics/2015/0522/59/aitaotu_10.jpg> referred in <None>
+2017-11-14 23:25:55 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.aitaotu.com/guonei/1927_3.html>
+{'img_url': 'https://img.aitaotu.cc:8089/Pics/2015/0522/59/aitaotu_10.jpg',
+ 'ref_url': 'https://www.aitaotu.com/guonei/1927.html',
+ 'title': '[RU1MM]No.165美女套图'}
+2017-11-14 23:25:56 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://img.aitaotu.cc:8089/Pics/2015/0522/59/aitaotu_08.jpg> (referer: None)
+2017-11-14 23:25:56 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://img.aitaotu.cc:8089/Pics/2015/0522/59/aitaotu_08.jpg> referred in <None>
+2017-11-14 23:25:57 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.aitaotu.com/guonei/1927_2.html>
+{'img_url': 'https://img.aitaotu.cc:8089/Pics/2015/0522/59/aitaotu_08.jpg',
+ 'ref_url': 'https://www.aitaotu.com/guonei/1927.html',
+ 'title': '[RU1MM]No.165美女套图'}
+2017-11-14 23:25:59 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://img.aitaotu.cc:8089/Pics/2015/0522/59/aitaotu_12.jpg> (referer: None)
+2017-11-14 23:25:59 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://img.aitaotu.cc:8089/Pics/2015/0522/59/aitaotu_12.jpg> referred in <None>
+2017-11-14 23:25:59 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.aitaotu.com/guonei/1927_3.html>
+{'img_url': 'https://img.aitaotu.cc:8089/Pics/2015/0522/59/aitaotu_12.jpg',
+ 'ref_url': 'https://www.aitaotu.com/guonei/1927.html',
+ 'title': '[RU1MM]No.165美女套图'}
+2017-11-14 23:26:01 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://img.aitaotu.cc:8089/Pics/2015/0522/61/aitaotu_09.jpg> (referer: None)
+2017-11-14 23:26:01 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://img.aitaotu.cc:8089/Pics/2015/0522/61/aitaotu_09.jpg> referred in <None>
+2017-11-14 23:26:02 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.aitaotu.com/guonei/1932_3.html>
+{'img_url': 'https://img.aitaotu.cc:8089/Pics/2015/0522/61/aitaotu_09.jpg',
+ 'ref_url': 'https://www.aitaotu.com/guonei/1932.html',
+ 'title': '[RU1MM]No.167套图超市'}
+2017-11-14 23:26:02 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://img.aitaotu.cc:8089/Pics/2015/0522/59/aitaotu_11.jpg> (referer: None)
+2017-11-14 23:26:02 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://img.aitaotu.cc:8089/Pics/2015/0522/59/aitaotu_11.jpg> referred in <None>
+2017-11-14 23:26:02 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.aitaotu.com/guonei/1927_3.html>
+{'img_url': 'https://img.aitaotu.cc:8089/Pics/2015/0522/59/aitaotu_11.jpg',
+ 'ref_url': 'https://www.aitaotu.com/guonei/1927.html',
+ 'title': '[RU1MM]No.165美女套图'}
+2017-11-14 23:26:04 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://img.aitaotu.cc:8089/Pics/2015/0522/59/aitaotu_07.jpg> (referer: None)
+2017-11-14 23:26:04 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://img.aitaotu.cc:8089/Pics/2015/0522/59/aitaotu_07.jpg> referred in <None>
+2017-11-14 23:26:04 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://img.aitaotu.cc:8089/Pics/2015/0522/59/aitaotu_09.jpg> (referer: None)
+2017-11-14 23:26:04 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://img.aitaotu.cc:8089/Pics/2015/0522/59/aitaotu_09.jpg> referred in <None>
+2017-11-14 23:26:04 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.aitaotu.com/guonei/1927_2.html>
+{'img_url': 'https://img.aitaotu.cc:8089/Pics/2015/0522/59/aitaotu_07.jpg',
+ 'ref_url': 'https://www.aitaotu.com/guonei/1927.html',
+ 'title': '[RU1MM]No.165美女套图'}
+2017-11-14 23:26:04 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.aitaotu.com/guonei/1927_3.html>
+{'img_url': 'https://img.aitaotu.cc:8089/Pics/2015/0522/59/aitaotu_09.jpg',
+ 'ref_url': 'https://www.aitaotu.com/guonei/1927.html',
+ 'title': '[RU1MM]No.165美女套图'}
+2017-11-14 23:26:07 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://img.aitaotu.cc:8089/Pics/2015/0527/70/aitaotu_07.jpg> (referer: None)
+2017-11-14 23:26:07 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://img.aitaotu.cc:8089/Pics/2015/0527/70/aitaotu_07.jpg> referred in <None>
+2017-11-14 23:26:07 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.aitaotu.com/guonei/2132_2.html>
+{'img_url': 'https://img.aitaotu.cc:8089/Pics/2015/0527/70/aitaotu_07.jpg',
+ 'ref_url': 'https://www.aitaotu.com/guonei/2132.html',
+ 'title': '[RU1MM]No.262美女套图'}
+2017-11-14 23:26:08 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://img.aitaotu.cc:8089/Pics/2015/0522/61/aitaotu_11.jpg> (referer: None)
+2017-11-14 23:26:08 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://img.aitaotu.cc:8089/Pics/2015/0522/61/aitaotu_11.jpg> referred in <None>
+2017-11-14 23:26:09 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.aitaotu.com/guonei/1932_3.html>
+{'img_url': 'https://img.aitaotu.cc:8089/Pics/2015/0522/61/aitaotu_11.jpg',
+ 'ref_url': 'https://www.aitaotu.com/guonei/1932.html',
+ 'title': '[RU1MM]No.167套图超市'}
+2017-11-14 23:26:10 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://img.aitaotu.cc:8089/Pics/2015/0522/61/aitaotu_10.jpg> (referer: None)
+2017-11-14 23:26:10 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://img.aitaotu.cc:8089/Pics/2015/0522/61/aitaotu_10.jpg> referred in <None>
+2017-11-14 23:26:11 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.aitaotu.com/guonei/1932_3.html>
+{'img_url': 'https://img.aitaotu.cc:8089/Pics/2015/0522/61/aitaotu_10.jpg',
+ 'ref_url': 'https://www.aitaotu.com/guonei/1932.html',
+ 'title': '[RU1MM]No.167套图超市'}
+2017-11-14 23:26:11 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://img.aitaotu.cc:8089/Pics/2015/0522/59/aitaotu_13.jpg> (referer: None)
+2017-11-14 23:26:11 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://img.aitaotu.cc:8089/Pics/2015/0522/59/aitaotu_13.jpg> referred in <None>
+2017-11-14 23:26:12 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://img.aitaotu.cc:8089/Pics/2015/0522/59/aitaotu_14.jpg> (referer: None)
+2017-11-14 23:26:12 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://img.aitaotu.cc:8089/Pics/2015/0522/59/aitaotu_14.jpg> referred in <None>
+2017-11-14 23:26:12 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.aitaotu.com/guonei/1934_4.html> (referer: https://www.aitaotu.com/guonei/1934_3.html)
+2017-11-14 23:26:12 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.aitaotu.com/guonei/1927_4.html>
+{'img_url': 'https://img.aitaotu.cc:8089/Pics/2015/0522/59/aitaotu_13.jpg',
+ 'ref_url': 'https://www.aitaotu.com/guonei/1927.html',
+ 'title': '[RU1MM]No.165美女套图'}
+2017-11-14 23:26:12 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.aitaotu.com/guonei/1927_4.html>
+{'img_url': 'https://img.aitaotu.cc:8089/Pics/2015/0522/59/aitaotu_14.jpg',
+ 'ref_url': 'https://www.aitaotu.com/guonei/1927.html',
+ 'title': '[RU1MM]No.165美女套图'}
+2017-11-14 23:26:12 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.aitaotu.com/guonei/1932_5.html> (referer: https://www.aitaotu.com/guonei/1932_4.html)
+2017-11-14 23:26:13 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.aitaotu.com/guonei/1927_5.html> (referer: https://www.aitaotu.com/guonei/1927_4.html)
+2017-11-14 23:26:13 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://img.aitaotu.cc:8089/Pics/2015/0522/59/aitaotu_15.jpg> (referer: None)
+2017-11-14 23:26:13 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://img.aitaotu.cc:8089/Pics/2015/0522/59/aitaotu_15.jpg> referred in <None>
+2017-11-14 23:26:14 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.aitaotu.com/guonei/1927_4.html>
+{'img_url': 'https://img.aitaotu.cc:8089/Pics/2015/0522/59/aitaotu_15.jpg',
+ 'ref_url': 'https://www.aitaotu.com/guonei/1927.html',
+ 'title': '[RU1MM]No.165美女套图'}
+2017-11-14 23:26:14 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.aitaotu.com/guonei/1930_2.html> (referer: https://www.aitaotu.com/guonei/1930.html)
+2017-11-14 23:26:17 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://img.aitaotu.cc:8089/Pics/2015/0522/61/aitaotu_13.jpg> (referer: None)
+2017-11-14 23:26:17 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://img.aitaotu.cc:8089/Pics/2015/0522/61/aitaotu_13.jpg> referred in <None>
+2017-11-14 23:26:18 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://img.aitaotu.cc:8089/Pics/2015/0522/61/aitaotu_16.jpg> (referer: None)
+2017-11-14 23:26:18 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://img.aitaotu.cc:8089/Pics/2015/0522/61/aitaotu_16.jpg> referred in <None>
+2017-11-14 23:26:18 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://img.aitaotu.cc:8089/Pics/2015/0522/59/aitaotu_16.jpg> (referer: None)
+2017-11-14 23:26:18 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://img.aitaotu.cc:8089/Pics/2015/0522/59/aitaotu_16.jpg> referred in <None>
+2017-11-14 23:26:19 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.aitaotu.com/guonei/1932_4.html>
+{'img_url': 'https://img.aitaotu.cc:8089/Pics/2015/0522/61/aitaotu_13.jpg',
+ 'ref_url': 'https://www.aitaotu.com/guonei/1932.html',
+ 'title': '[RU1MM]No.167套图超市'}
+2017-11-14 23:26:19 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.aitaotu.com/guonei/1932_4.html>
+{'img_url': 'https://img.aitaotu.cc:8089/Pics/2015/0522/61/aitaotu_16.jpg',
+ 'ref_url': 'https://www.aitaotu.com/guonei/1932.html',
+ 'title': '[RU1MM]No.167套图超市'}
+2017-11-14 23:26:19 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.aitaotu.com/guonei/1927_4.html>
+{'img_url': 'https://img.aitaotu.cc:8089/Pics/2015/0522/59/aitaotu_16.jpg',
+ 'ref_url': 'https://www.aitaotu.com/guonei/1927.html',
+ 'title': '[RU1MM]No.165美女套图'}
+2017-11-14 23:26:21 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://img.aitaotu.cc:8089/Pics/2015/0522/61/aitaotu_12.jpg> (referer: None)
+2017-11-14 23:26:21 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://img.aitaotu.cc:8089/Pics/2015/0522/61/aitaotu_12.jpg> referred in <None>
+2017-11-14 23:26:22 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://img.aitaotu.cc:8089/Pics/2015/0522/61/aitaotu_14.jpg> (referer: None)
+2017-11-14 23:26:22 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://img.aitaotu.cc:8089/Pics/2015/0522/61/aitaotu_14.jpg> referred in <None>
+2017-11-14 23:26:22 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.aitaotu.com/guonei/1932_3.html>
+{'img_url': 'https://img.aitaotu.cc:8089/Pics/2015/0522/61/aitaotu_12.jpg',
+ 'ref_url': 'https://www.aitaotu.com/guonei/1932.html',
+ 'title': '[RU1MM]No.167套图超市'}
+2017-11-14 23:26:22 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.aitaotu.com/guonei/1932_4.html>
+{'img_url': 'https://img.aitaotu.cc:8089/Pics/2015/0522/61/aitaotu_14.jpg',
+ 'ref_url': 'https://www.aitaotu.com/guonei/1932.html',
+ 'title': '[RU1MM]No.167套图超市'}
+2017-11-14 23:26:22 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://img.aitaotu.cc:8089/Pics/2015/0522/63/aitaotu_13.jpg> (referer: None)
+2017-11-14 23:26:22 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://img.aitaotu.cc:8089/Pics/2015/0522/63/aitaotu_13.jpg> referred in <None>
+2017-11-14 23:26:23 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.aitaotu.com/guonei/1934_3.html>
+{'img_url': 'https://img.aitaotu.cc:8089/Pics/2015/0522/63/aitaotu_13.jpg',
+ 'ref_url': 'https://www.aitaotu.com/guonei/1934.html',
+ 'title': '[RU1MM]No.168美女套图'}
+2017-11-14 23:26:26 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://img.aitaotu.cc:8089/Pics/2015/0522/61/aitaotu_15.jpg> (referer: None)
+2017-11-14 23:26:26 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://img.aitaotu.cc:8089/Pics/2015/0522/61/aitaotu_15.jpg> referred in <None>
+2017-11-14 23:26:27 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://img.aitaotu.cc:8089/Pics/2015/0522/63/aitaotu_12.jpg> (referer: None)
+2017-11-14 23:26:27 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://img.aitaotu.cc:8089/Pics/2015/0522/63/aitaotu_12.jpg> referred in <None>
+2017-11-14 23:26:29 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://img.aitaotu.cc:8089/Pics/2015/0522/63/aitaotu_11.jpg> (referer: None)
+2017-11-14 23:26:29 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://img.aitaotu.cc:8089/Pics/2015/0522/63/aitaotu_11.jpg> referred in <None>
+2017-11-14 23:26:29 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.aitaotu.com/guonei/1932_4.html>
+{'img_url': 'https://img.aitaotu.cc:8089/Pics/2015/0522/61/aitaotu_15.jpg',
+ 'ref_url': 'https://www.aitaotu.com/guonei/1932.html',
+ 'title': '[RU1MM]No.167套图超市'}
+2017-11-14 23:26:29 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.aitaotu.com/guonei/1934_3.html>
+{'img_url': 'https://img.aitaotu.cc:8089/Pics/2015/0522/63/aitaotu_12.jpg',
+ 'ref_url': 'https://www.aitaotu.com/guonei/1934.html',
+ 'title': '[RU1MM]No.168美女套图'}
+2017-11-14 23:26:29 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.aitaotu.com/guonei/1934_3.html>
+{'img_url': 'https://img.aitaotu.cc:8089/Pics/2015/0522/63/aitaotu_11.jpg',
+ 'ref_url': 'https://www.aitaotu.com/guonei/1934.html',
+ 'title': '[RU1MM]No.168美女套图'}
+2017-11-14 23:26:30 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://img.aitaotu.cc:8089/Pics/2015/0522/63/aitaotu_16.jpg> (referer: None)
+2017-11-14 23:26:30 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://img.aitaotu.cc:8089/Pics/2015/0522/63/aitaotu_16.jpg> referred in <None>
+2017-11-14 23:26:31 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.aitaotu.com/guonei/1934_4.html>
+{'img_url': 'https://img.aitaotu.cc:8089/Pics/2015/0522/63/aitaotu_16.jpg',
+ 'ref_url': 'https://www.aitaotu.com/guonei/1934.html',
+ 'title': '[RU1MM]No.168美女套图'}
+2017-11-14 23:26:35 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://img.aitaotu.cc:8089/Pics/2015/0522/61/aitaotu_17.jpg> (referer: None)
+2017-11-14 23:26:35 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://img.aitaotu.cc:8089/Pics/2015/0522/61/aitaotu_17.jpg> referred in <None>
+2017-11-14 23:26:35 [scrapy.extensions.logstats] INFO: Crawled 205 pages (at 45 pages/min), scraped 135 items (at 35 items/min)
+2017-11-14 23:26:35 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.aitaotu.com/guonei/1932_5.html>
+{'img_url': 'https://img.aitaotu.cc:8089/Pics/2015/0522/61/aitaotu_17.jpg',
+ 'ref_url': 'https://www.aitaotu.com/guonei/1932.html',
+ 'title': '[RU1MM]No.167套图超市'}
+2017-11-14 23:26:37 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://img.aitaotu.cc:8089/Pics/2015/0522/63/aitaotu_15.jpg> (referer: None)
+2017-11-14 23:26:37 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://img.aitaotu.cc:8089/Pics/2015/0522/63/aitaotu_15.jpg> referred in <None>
+2017-11-14 23:26:37 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://img.aitaotu.cc:8089/Pics/2015/0522/61/aitaotu_19.jpg> (referer: None)
+2017-11-14 23:26:37 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://img.aitaotu.cc:8089/Pics/2015/0522/61/aitaotu_19.jpg> referred in <None>
+2017-11-14 23:26:38 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.aitaotu.com/guonei/1934_4.html>
+{'img_url': 'https://img.aitaotu.cc:8089/Pics/2015/0522/63/aitaotu_15.jpg',
+ 'ref_url': 'https://www.aitaotu.com/guonei/1934.html',
+ 'title': '[RU1MM]No.168美女套图'}
+2017-11-14 23:26:38 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.aitaotu.com/guonei/1932_5.html>
+{'img_url': 'https://img.aitaotu.cc:8089/Pics/2015/0522/61/aitaotu_19.jpg',
+ 'ref_url': 'https://www.aitaotu.com/guonei/1932.html',
+ 'title': '[RU1MM]No.167套图超市'}
+2017-11-14 23:26:38 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://img.aitaotu.cc:8089/Pics/2015/0522/63/aitaotu_07.jpg> (referer: None)
+2017-11-14 23:26:38 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://img.aitaotu.cc:8089/Pics/2015/0522/63/aitaotu_07.jpg> referred in <None>
+2017-11-14 23:26:39 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.aitaotu.com/guonei/1930_3.html> (referer: https://www.aitaotu.com/guonei/1930_2.html)
+2017-11-14 23:26:39 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.aitaotu.com/guonei/1934_2.html>
+{'img_url': 'https://img.aitaotu.cc:8089/Pics/2015/0522/63/aitaotu_07.jpg',
+ 'ref_url': 'https://www.aitaotu.com/guonei/1934.html',
+ 'title': '[RU1MM]No.168美女套图'}
+2017-11-14 23:26:39 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://img.aitaotu.cc:8089/Pics/2015/0522/63/aitaotu_14.jpg> (referer: None)
+2017-11-14 23:26:39 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://img.aitaotu.cc:8089/Pics/2015/0522/63/aitaotu_14.jpg> referred in <None>
+2017-11-14 23:26:39 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.aitaotu.com/guonei/1927_6.html> (referer: https://www.aitaotu.com/guonei/1927_5.html)
+2017-11-14 23:26:39 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.aitaotu.com/guonei/1934_3.html>
+{'img_url': 'https://img.aitaotu.cc:8089/Pics/2015/0522/63/aitaotu_14.jpg',
+ 'ref_url': 'https://www.aitaotu.com/guonei/1934.html',
+ 'title': '[RU1MM]No.168美女套图'}
+2017-11-14 23:26:40 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://img.aitaotu.cc:8089/Pics/2015/0522/61/aitaotu_18.jpg> (referer: None)
+2017-11-14 23:26:40 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://img.aitaotu.cc:8089/Pics/2015/0522/61/aitaotu_18.jpg> referred in <None>
+2017-11-14 23:26:40 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.aitaotu.com/guonei/1932_6.html> (referer: https://www.aitaotu.com/guonei/1932_5.html)
+2017-11-14 23:26:40 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.aitaotu.com/guonei/1932_5.html>
+{'img_url': 'https://img.aitaotu.cc:8089/Pics/2015/0522/61/aitaotu_18.jpg',
+ 'ref_url': 'https://www.aitaotu.com/guonei/1932.html',
+ 'title': '[RU1MM]No.167套图超市'}
+2017-11-14 23:26:41 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.aitaotu.com/guonei/1934_5.html> (referer: https://www.aitaotu.com/guonei/1934_4.html)
+2017-11-14 23:26:42 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://img.aitaotu.cc:8089/Pics/2015/0522/61/aitaotu_20.jpg> (referer: None)
+2017-11-14 23:26:42 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://img.aitaotu.cc:8089/Pics/2015/0522/61/aitaotu_20.jpg> referred in <None>
+2017-11-14 23:26:42 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.aitaotu.com/guonei/1932_5.html>
+{'img_url': 'https://img.aitaotu.cc:8089/Pics/2015/0522/61/aitaotu_20.jpg',
+ 'ref_url': 'https://www.aitaotu.com/guonei/1932.html',
+ 'title': '[RU1MM]No.167套图超市'}
+2017-11-14 23:26:42 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://img.aitaotu.cc:8089/Pics/2015/0522/63/aitaotu_18.jpg> (referer: None)
+2017-11-14 23:26:42 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://img.aitaotu.cc:8089/Pics/2015/0522/63/aitaotu_18.jpg> referred in <None>
+2017-11-14 23:26:43 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.aitaotu.com/guonei/1934_4.html>
+{'img_url': 'https://img.aitaotu.cc:8089/Pics/2015/0522/63/aitaotu_18.jpg',
+ 'ref_url': 'https://www.aitaotu.com/guonei/1934.html',
+ 'title': '[RU1MM]No.168美女套图'}
+2017-11-14 23:26:46 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://img.aitaotu.cc:8089/Pics/2015/0522/59/aitaotu_17.jpg> (referer: None)
+2017-11-14 23:26:46 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://img.aitaotu.cc:8089/Pics/2015/0522/59/aitaotu_17.jpg> referred in <None>
+2017-11-14 23:26:46 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.aitaotu.com/guonei/1927_5.html>
+{'img_url': 'https://img.aitaotu.cc:8089/Pics/2015/0522/59/aitaotu_17.jpg',
+ 'ref_url': 'https://www.aitaotu.com/guonei/1927.html',
+ 'title': '[RU1MM]No.165美女套图'}
+2017-11-14 23:26:47 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://img.aitaotu.cc:8089/Pics/2015/0522/61/aitaotu_07.jpg> (referer: None)
+2017-11-14 23:26:47 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://img.aitaotu.cc:8089/Pics/2015/0522/61/aitaotu_07.jpg> referred in <None>
+2017-11-14 23:26:47 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.aitaotu.com/guonei/1932_2.html>
+{'img_url': 'https://img.aitaotu.cc:8089/Pics/2015/0522/61/aitaotu_07.jpg',
+ 'ref_url': 'https://www.aitaotu.com/guonei/1932.html',
+ 'title': '[RU1MM]No.167套图超市'}
+2017-11-14 23:26:50 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://img.aitaotu.cc:8089/Pics/2015/0522/63/aitaotu_17.jpg> (referer: None)
+2017-11-14 23:26:50 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://img.aitaotu.cc:8089/Pics/2015/0522/63/aitaotu_17.jpg> referred in <None>
+2017-11-14 23:26:50 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.aitaotu.com/guonei/1934_4.html>
+{'img_url': 'https://img.aitaotu.cc:8089/Pics/2015/0522/63/aitaotu_17.jpg',
+ 'ref_url': 'https://www.aitaotu.com/guonei/1934.html',
+ 'title': '[RU1MM]No.168美女套图'}
+2017-11-14 23:26:50 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://img.aitaotu.cc:8089/Pics/2015/0522/60/aitaotu_06.jpg> (referer: None)
+2017-11-14 23:26:50 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://img.aitaotu.cc:8089/Pics/2015/0522/60/aitaotu_06.jpg> referred in <None>
+2017-11-14 23:26:51 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://img.aitaotu.cc:8089/Pics/2015/0522/59/aitaotu_19.jpg> (referer: None)
+2017-11-14 23:26:51 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://img.aitaotu.cc:8089/Pics/2015/0522/59/aitaotu_19.jpg> referred in <None>
+2017-11-14 23:26:51 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.aitaotu.com/guonei/1930_2.html>
+{'img_url': 'https://img.aitaotu.cc:8089/Pics/2015/0522/60/aitaotu_06.jpg',
+ 'ref_url': 'https://www.aitaotu.com/guonei/1930.html',
+ 'title': '[RU1MM]No.166精品套图'}
+2017-11-14 23:26:51 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://img.aitaotu.cc:8089/Pics/2015/0522/60/aitaotu_05.jpg> (referer: None)
+2017-11-14 23:26:51 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://img.aitaotu.cc:8089/Pics/2015/0522/60/aitaotu_05.jpg> referred in <None>
+2017-11-14 23:26:51 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.aitaotu.com/guonei/1927_5.html>
+{'img_url': 'https://img.aitaotu.cc:8089/Pics/2015/0522/59/aitaotu_19.jpg',
+ 'ref_url': 'https://www.aitaotu.com/guonei/1927.html',
+ 'title': '[RU1MM]No.165美女套图'}
+2017-11-14 23:26:51 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://img.aitaotu.cc:8089/Pics/2015/0522/59/aitaotu_20.jpg> (referer: None)
+2017-11-14 23:26:51 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://img.aitaotu.cc:8089/Pics/2015/0522/59/aitaotu_20.jpg> referred in <None>
+2017-11-14 23:26:52 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://img.aitaotu.cc:8089/Pics/2015/0522/60/aitaotu_08.jpg> (referer: None)
+2017-11-14 23:26:52 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://img.aitaotu.cc:8089/Pics/2015/0522/60/aitaotu_08.jpg> referred in <None>
+2017-11-14 23:26:52 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.aitaotu.com/guonei/1930_2.html>
+{'img_url': 'https://img.aitaotu.cc:8089/Pics/2015/0522/60/aitaotu_05.jpg',
+ 'ref_url': 'https://www.aitaotu.com/guonei/1930.html',
+ 'title': '[RU1MM]No.166精品套图'}
+2017-11-14 23:26:52 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.aitaotu.com/guonei/1927_5.html>
+{'img_url': 'https://img.aitaotu.cc:8089/Pics/2015/0522/59/aitaotu_20.jpg',
+ 'ref_url': 'https://www.aitaotu.com/guonei/1927.html',
+ 'title': '[RU1MM]No.165美女套图'}
+2017-11-14 23:26:52 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://img.aitaotu.cc:8089/Pics/2015/0522/59/aitaotu_18.jpg> (referer: None)
+2017-11-14 23:26:52 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://img.aitaotu.cc:8089/Pics/2015/0522/59/aitaotu_18.jpg> referred in <None>
+2017-11-14 23:26:52 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.aitaotu.com/guonei/1930_2.html>
+{'img_url': 'https://img.aitaotu.cc:8089/Pics/2015/0522/60/aitaotu_08.jpg',
+ 'ref_url': 'https://www.aitaotu.com/guonei/1930.html',
+ 'title': '[RU1MM]No.166精品套图'}
+2017-11-14 23:26:52 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.aitaotu.com/guonei/1927_5.html>
+{'img_url': 'https://img.aitaotu.cc:8089/Pics/2015/0522/59/aitaotu_18.jpg',
+ 'ref_url': 'https://www.aitaotu.com/guonei/1927.html',
+ 'title': '[RU1MM]No.165美女套图'}
+2017-11-14 23:26:57 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://img.aitaotu.cc:8089/Pics/2015/0522/59/aitaotu_23.jpg> (referer: None)
+2017-11-14 23:26:57 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://img.aitaotu.cc:8089/Pics/2015/0522/59/aitaotu_23.jpg> referred in <None>
+2017-11-14 23:26:58 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.aitaotu.com/guonei/1927_6.html>
+{'img_url': 'https://img.aitaotu.cc:8089/Pics/2015/0522/59/aitaotu_23.jpg',
+ 'ref_url': 'https://www.aitaotu.com/guonei/1927.html',
+ 'title': '[RU1MM]No.165美女套图'}
+2017-11-14 23:26:58 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://img.aitaotu.cc:8089/Pics/2015/0522/59/aitaotu_21.jpg> (referer: None)
+2017-11-14 23:26:58 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://img.aitaotu.cc:8089/Pics/2015/0522/59/aitaotu_21.jpg> referred in <None>
+2017-11-14 23:26:58 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.aitaotu.com/guonei/1927_6.html>
+{'img_url': 'https://img.aitaotu.cc:8089/Pics/2015/0522/59/aitaotu_21.jpg',
+ 'ref_url': 'https://www.aitaotu.com/guonei/1927.html',
+ 'title': '[RU1MM]No.165美女套图'}
+2017-11-14 23:26:59 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.aitaotu.com/guonei/1934_6.html> (referer: https://www.aitaotu.com/guonei/1934_5.html)
+2017-11-14 23:26:59 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://img.aitaotu.cc:8089/Pics/2015/0522/60/aitaotu_07.jpg> (referer: None)
+2017-11-14 23:26:59 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://img.aitaotu.cc:8089/Pics/2015/0522/60/aitaotu_07.jpg> referred in <None>
+2017-11-14 23:26:59 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://img.aitaotu.cc:8089/Pics/2015/0522/60/aitaotu_12.jpg> (referer: None)
+2017-11-14 23:26:59 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://img.aitaotu.cc:8089/Pics/2015/0522/60/aitaotu_12.jpg> referred in <None>
+2017-11-14 23:26:59 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.aitaotu.com/guonei/1930_2.html>
+{'img_url': 'https://img.aitaotu.cc:8089/Pics/2015/0522/60/aitaotu_07.jpg',
+ 'ref_url': 'https://www.aitaotu.com/guonei/1930.html',
+ 'title': '[RU1MM]No.166精品套图'}
+2017-11-14 23:26:59 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.aitaotu.com/guonei/1932_7.html> (referer: https://www.aitaotu.com/guonei/1932_6.html)
+2017-11-14 23:26:59 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.aitaotu.com/guonei/1930_3.html>
+{'img_url': 'https://img.aitaotu.cc:8089/Pics/2015/0522/60/aitaotu_12.jpg',
+ 'ref_url': 'https://www.aitaotu.com/guonei/1930.html',
+ 'title': '[RU1MM]No.166精品套图'}
+2017-11-14 23:27:00 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://img.aitaotu.cc:8089/Pics/2015/0522/60/aitaotu_09.jpg> (referer: None)
+2017-11-14 23:27:00 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://img.aitaotu.cc:8089/Pics/2015/0522/60/aitaotu_09.jpg> referred in <None>
+2017-11-14 23:27:00 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.aitaotu.com/guonei/1930_3.html>
+{'img_url': 'https://img.aitaotu.cc:8089/Pics/2015/0522/60/aitaotu_09.jpg',
+ 'ref_url': 'https://www.aitaotu.com/guonei/1930.html',
+ 'title': '[RU1MM]No.166精品套图'}
+2017-11-14 23:27:00 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.aitaotu.com/guonei/1927_7.html> (referer: https://www.aitaotu.com/guonei/1927_6.html)
+2017-11-14 23:27:02 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://img.aitaotu.cc:8089/Pics/2015/0522/60/aitaotu_11.jpg> (referer: None)
+2017-11-14 23:27:02 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://img.aitaotu.cc:8089/Pics/2015/0522/60/aitaotu_11.jpg> referred in <None>
+2017-11-14 23:27:02 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.aitaotu.com/guonei/1930_3.html>
+{'img_url': 'https://img.aitaotu.cc:8089/Pics/2015/0522/60/aitaotu_11.jpg',
+ 'ref_url': 'https://www.aitaotu.com/guonei/1930.html',
+ 'title': '[RU1MM]No.166精品套图'}
+2017-11-14 23:27:03 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://img.aitaotu.cc:8089/Pics/2015/0522/59/aitaotu_24.jpg> (referer: None)
+2017-11-14 23:27:03 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://img.aitaotu.cc:8089/Pics/2015/0522/59/aitaotu_24.jpg> referred in <None>
+2017-11-14 23:27:03 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://img.aitaotu.cc:8089/Pics/2015/0522/61/aitaotu_21.jpg> (referer: None)
+2017-11-14 23:27:03 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://img.aitaotu.cc:8089/Pics/2015/0522/61/aitaotu_21.jpg> referred in <None>
+2017-11-14 23:27:03 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.aitaotu.com/guonei/1927_6.html>
+{'img_url': 'https://img.aitaotu.cc:8089/Pics/2015/0522/59/aitaotu_24.jpg',
+ 'ref_url': 'https://www.aitaotu.com/guonei/1927.html',
+ 'title': '[RU1MM]No.165美女套图'}
+2017-11-14 23:27:03 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://img.aitaotu.cc:8089/Pics/2015/0522/61/aitaotu_22.jpg> (referer: None)
+2017-11-14 23:27:03 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://img.aitaotu.cc:8089/Pics/2015/0522/61/aitaotu_22.jpg> referred in <None>
+2017-11-14 23:27:03 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.aitaotu.com/guonei/1932_6.html>
+{'img_url': 'https://img.aitaotu.cc:8089/Pics/2015/0522/61/aitaotu_21.jpg',
+ 'ref_url': 'https://www.aitaotu.com/guonei/1932.html',
+ 'title': '[RU1MM]No.167套图超市'}
+2017-11-14 23:27:03 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.aitaotu.com/guonei/1932_6.html>
+{'img_url': 'https://img.aitaotu.cc:8089/Pics/2015/0522/61/aitaotu_22.jpg',
+ 'ref_url': 'https://www.aitaotu.com/guonei/1932.html',
+ 'title': '[RU1MM]No.167套图超市'}
+2017-11-14 23:27:04 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://img.aitaotu.cc:8089/Pics/2015/0522/61/aitaotu_23.jpg> (referer: None)
+2017-11-14 23:27:04 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://img.aitaotu.cc:8089/Pics/2015/0522/61/aitaotu_23.jpg> referred in <None>
+2017-11-14 23:27:04 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.aitaotu.com/guonei/1932_6.html>
+{'img_url': 'https://img.aitaotu.cc:8089/Pics/2015/0522/61/aitaotu_23.jpg',
+ 'ref_url': 'https://www.aitaotu.com/guonei/1932.html',
+ 'title': '[RU1MM]No.167套图超市'}
+2017-11-14 23:27:04 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://img.aitaotu.cc:8089/Pics/2015/0522/59/aitaotu_22.jpg> (referer: None)
+2017-11-14 23:27:04 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://img.aitaotu.cc:8089/Pics/2015/0522/59/aitaotu_22.jpg> referred in <None>
+2017-11-14 23:27:04 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.aitaotu.com/guonei/1927_6.html>
+{'img_url': 'https://img.aitaotu.cc:8089/Pics/2015/0522/59/aitaotu_22.jpg',
+ 'ref_url': 'https://www.aitaotu.com/guonei/1927.html',
+ 'title': '[RU1MM]No.165美女套图'}
+2017-11-14 23:27:05 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://img.aitaotu.cc:8089/Pics/2015/0522/61/aitaotu_24.jpg> (referer: None)
+2017-11-14 23:27:05 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://img.aitaotu.cc:8089/Pics/2015/0522/61/aitaotu_24.jpg> referred in <None>
+2017-11-14 23:27:05 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.aitaotu.com/guonei/1932_6.html>
+{'img_url': 'https://img.aitaotu.cc:8089/Pics/2015/0522/61/aitaotu_24.jpg',
+ 'ref_url': 'https://www.aitaotu.com/guonei/1932.html',
+ 'title': '[RU1MM]No.167套图超市'}
+2017-11-14 23:27:06 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.aitaotu.com/guonei/1927_8.html> (referer: https://www.aitaotu.com/guonei/1927_7.html)
+2017-11-14 23:27:06 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.aitaotu.com/guonei/1930_4.html> (referer: https://www.aitaotu.com/guonei/1930_3.html)
+2017-11-14 23:27:07 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.aitaotu.com/guonei/1934_7.html> (referer: https://www.aitaotu.com/guonei/1934_6.html)
+2017-11-14 23:27:08 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://img.aitaotu.cc:8089/Pics/2015/0522/63/aitaotu_21.jpg> (referer: None)
+2017-11-14 23:27:08 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://img.aitaotu.cc:8089/Pics/2015/0522/63/aitaotu_21.jpg> referred in <None>
+2017-11-14 23:27:08 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.aitaotu.com/guonei/1934_5.html>
+{'img_url': 'https://img.aitaotu.cc:8089/Pics/2015/0522/63/aitaotu_21.jpg',
+ 'ref_url': 'https://www.aitaotu.com/guonei/1934.html',
+ 'title': '[RU1MM]No.168美女套图'}
+2017-11-14 23:27:10 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://img.aitaotu.cc:8089/Pics/2015/0522/63/aitaotu_20.jpg> (referer: None)
+2017-11-14 23:27:10 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://img.aitaotu.cc:8089/Pics/2015/0522/63/aitaotu_20.jpg> referred in <None>
+2017-11-14 23:27:10 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.aitaotu.com/guonei/1934_5.html>
+{'img_url': 'https://img.aitaotu.cc:8089/Pics/2015/0522/63/aitaotu_20.jpg',
+ 'ref_url': 'https://www.aitaotu.com/guonei/1934.html',
+ 'title': '[RU1MM]No.168美女套图'}
+2017-11-14 23:27:12 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://img.aitaotu.cc:8089/Pics/2015/0522/63/aitaotu_23.jpg> (referer: None)
+2017-11-14 23:27:12 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://img.aitaotu.cc:8089/Pics/2015/0522/63/aitaotu_23.jpg> referred in <None>
+2017-11-14 23:27:12 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.aitaotu.com/guonei/1934_6.html>
+{'img_url': 'https://img.aitaotu.cc:8089/Pics/2015/0522/63/aitaotu_23.jpg',
+ 'ref_url': 'https://www.aitaotu.com/guonei/1934.html',
+ 'title': '[RU1MM]No.168美女套图'}

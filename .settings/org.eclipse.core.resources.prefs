@@ -5,6 +5,7 @@ encoding//anycrawl/anycrawl/pipelines.py=utf-8
 encoding//anycrawl/anycrawl/settings.py=utf-8
 encoding//anycrawl/anycrawl/spiders/AitaotuImageSpider.py=utf-8
 encoding//anycrawl/anycrawl/spiders/Rentiyishu77ImageSpider.py=utf-8
+encoding//anycrawl/anycrawl/spiders/cssmobanSpider.py=utf-8
 encoding//anycrawl/anycrawl/src_bak/AitaotuCrawler4.py=utf-8
 encoding//src/crawlAitaotu.py=utf-8
 encoding//src/crawlAitaotu2.py=utf-8

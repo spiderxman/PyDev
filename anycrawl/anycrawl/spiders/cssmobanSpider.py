@@ -1,6 +1,5 @@
 # -*- coding: utf-8 -*-
 import scrapy
-import os
 
 from scrapy import Request
 from scrapy import signals
@@ -10,6 +9,7 @@ from scrapy.utils.url import urljoin_rfc
 from scrapy.spider import CrawlSpider, Rule
 from scrapy.xlib.pydispatch import dispatcher
 from lxml import etree
+#import os
 
 from anycrawl.items import AitaotuItems
 '''
@@ -20,18 +20,10 @@ from scrapy.selector import HtmlXPathSelector
 '''
 
 class MultSetSpider(CrawlSpider):
-    name = "aitaotuSpider"
-    allowed_domains = ["aitaotu.com"]
+    name = "cssmobanSpider"
+    allowed_domains = ["cssmoban.com"]
     start_urls = [
-            "https://www.aitaotu.com/tag/youmihui.html",
-            "https://www.aitaotu.com/tag/xingleyuan.html",
-            "https://www.aitaotu.com/tag/feituwang.html",
-            "https://www.aitaotu.com/tag/meixiu.html",
-            "https://www.aitaotu.com/tag/shanghaixuancai.html",
-            "https://www.aitaotu.com/tag/aixiu.html",
-            "https://www.aitaotu.com/tag/ruyixiezhen.html",
-            "https://www.aitaotu.com/tag/aimishe.html",
-            "https://www.aitaotu.com/tag/meituibaobei.html",
+        "http://www.cssmoban.com/cssthemes/index.shtml"
         ]
 
     def __init__(self):
@@ -110,7 +102,7 @@ class MultSetSpider(CrawlSpider):
         print("★★★★★task over!★★★★★")
             
 class OneSetSpider(CrawlSpider):
-    name = "aitaotuCrawler1"
+    name = "cssmobanSpider1"
     allowed_domains = ["aitaotu.com"]
     start_urls = [
         "https://www.aitaotu.com/guonei/32248.html"
