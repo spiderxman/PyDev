@@ -21,3 +21,12 @@ class AitaotuItems(scrapy.Item):
     ref_url = scrapy.Field()
     img_url = scrapy.Field()
     
+class CssmobanItems(scrapy.Item):
+    # define the fields for your item here like:
+    # name = scrapy.Field()
+    url = scrapy.Field()
+    title = scrapy.Field()
+    ref_url = scrapy.Field()
+    img_url = scrapy.Field()
+    file_url = scrapy.Field()
+    

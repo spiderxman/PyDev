@@ -6,6 +6,7 @@
 # See: http://doc.scrapy.org/en/latest/topics/item-pipeline.html
 from scrapy import Request
 from scrapy.pipelines.images import ImagesPipeline
+from scrapy.pipelines.files import FilesPipeline
 from scrapy.exceptions import DropItem
 import re
 
@@ -23,7 +24,7 @@ class AitaotuPipeline(ImagesPipeline):
     def get_media_requests(self, item, info):
         #for img_url in item['img_url']:
         img_url = item['img_url']
-        title = item['title']
+        #title = item['title']
         yield Request(img_url, meta={'g_item': item}, dont_filter=False)
  
     def item_completed(self, results, item, info):
@@ -34,6 +35,30 @@ class AitaotuPipeline(ImagesPipeline):
     
 #    def process_item(self, item, spider):
 #        return item
+class FileDownLoadPipeline(FilesPipeline):
+    
+    def file_path(self, request, response=None, info=None):
+        g_item = request.meta['g_item']
+        title = g_item['title']
+        folder_strip = strip(title)
+        #image_guid = request.url.split('/')[-1]
+        file_guid = strip(request.url)
+        filename = u'full/{0}/{1}'.format(folder_strip, file_guid)
+        return filename
+
+    def get_media_requests(self, item, info):
+        #for img_url in item['img_url']:
+        #img_url = item['img_url']
+        file_url = item['file_url']
+        #title = item['title']
+        #yield Request(img_url, meta={'g_item': item}, dont_filter=False)
+        yield Request(file_url, meta={'g_item': item}, dont_filter=False)
+ 
+    def item_completed(self, results, item, info):
+        file_paths = [x['path'] for ok, x in results if ok]
+        if not file_paths:
+            raise DropItem("Item contains no images")
+        return item
 
 def strip(path):
     """

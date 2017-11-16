@@ -70,9 +70,11 @@ DOWNLOADER_MIDDLEWARES = {
 # See http://scrapy.readthedocs.org/en/latest/topics/item-pipeline.html
 ITEM_PIPELINES = {
     'anycrawl.pipelines.AitaotuPipeline': 300,
+    'anycrawl.pipelines.FileDownLoadPipeline': 300,
 }
 
 IMAGES_STORE='C:/Tang/Develop/Python/work/'
+FILES_STORE = 'C:/Tang/Develop/Python/work/'
 
 # Enable and configure the AutoThrottle extension (disabled by default)
 # See http://doc.scrapy.org/en/latest/topics/autothrottle.html
